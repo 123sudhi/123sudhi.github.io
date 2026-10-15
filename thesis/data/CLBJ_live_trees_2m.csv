@@ -1,0 +1,518 @@
+individualID,plotID,pointID,species,commonName,group,growthForm,plantStatus,height,maxCrownDiameter,ninetyCrownDiameter,canopyPosition,lastSurveyYear,stemDistance,stemAzimuth,horzUncert,stemEasting,stemNorthing
+NEON.PLA.D11.CLBJ.00767,CLBJ_029,49.0,Quercus stellata,post oak,oak,multi-bole tree,Live,10.2,,,,2019.0,7.9,168.8,0.1,633103.9404513746,3696445.4044542727
+NEON.PLA.D11.CLBJ.00756,CLBJ_029,49.0,Quercus stellata,post oak,oak,single bole tree,Live,9.4,,,,2019.0,7.2,108.9,0.1,633109.2178145836,3696450.821794589
+NEON.PLA.D11.CLBJ.00762,CLBJ_029,49.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,5.9,,,,2019.0,8.5,155.7,0.1,633105.9038720481,3696445.4070721488
+NEON.PLA.D11.CLBJ.00274,CLBJ_004,49.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",5.9,8.0,6.4,Partially shaded,2025.0,4.9,130.5,0.1,633076.5479892315,3696210.984704563
+NEON.PLA.D11.CLBJ.00275,CLBJ_004,49.0,Quercus stellata,post oak,oak,single bole tree,Live,7.3,6.7,5.5,Partially shaded,2025.0,9.0,168.1,0.1,633074.6778376686,3696205.360419134
+NEON.PLA.D11.CLBJ.00124,CLBJ_004,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.3,7.1,4.9,Partially shaded,2025.0,1.9,313.9,0.1,633081.4539528878,3696205.307463474
+NEON.PLA.D11.CLBJ.00123,CLBJ_004,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",4.9,4.5,3.9,Partially shaded,2025.0,8.3,256.9,0.1,633084.6509994715,3696212.5557941482
+NEON.PLA.D11.CLBJ.00279,CLBJ_004,49.0,Quercus stellata,post oak,oak,single bole tree,Live,8.9,7.7,3.5,Partially shaded,2025.0,3.8,172.3,0.1,633073.3311475046,3696210.401263841
+NEON.PLA.D11.CLBJ.00122,CLBJ_004,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",5.2,4.1,4.0,Partially shaded,2025.0,5.9,266.7,0.1,633086.8447832819,3696214.097372241
+NEON.PLA.D11.CLBJ.00277,CLBJ_004,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.1,7.1,5.6,Partially shaded,2025.0,3.7,282.8,0.1,633079.2149473891,3696204.8097294415
+NEON.PLA.D11.CLBJ.00086,CLBJ_022,49.0,Quercus stellata,post oak,oak,single bole tree,Live,8.1,,,,2019.0,9.1,116.4,0.1,632749.9639770181,3697232.3158198697
+NEON.PLA.D11.CLBJ.00057,CLBJ_022,41.0,Quercus shumardii,Quercus shumardii,oak,single bole tree,Live,13.9,,,,2019.0,7.4,50.8,0.1,632757.8725892165,3697231.1050168397
+NEON.PLA.D11.CLBJ.00056,CLBJ_022,51.0,Quercus stellata,post oak,oak,single bole tree,Live,10.7,,,,2019.0,7.3,256.2,0.1,632754.5597197566,3697234.5277057597
+NEON.PLA.D11.CLBJ.00063,CLBJ_018,41.0,Quercus marilandica,blackjack oak,oak,small tree,Live,5.7,,,,2019.0,7.7,266.7,0.1,632653.7377680121,3697164.2817569925
+NEON.PLA.D11.CLBJ.00059,CLBJ_022,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.8,,,,2019.0,2.6,257.7,0.1,632749.5976815065,3697225.8741209954
+NEON.PLA.D11.CLBJ.00091,CLBJ_022,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,4.1,,,,2019.0,2.7,111.6,0.1,632754.6483965119,3697225.4340637075
+NEON.PLA.D11.CLBJ.00075,CLBJ_018,41.0,Quercus marilandica,blackjack oak,oak,small tree,Live,5.6,,,,2019.0,5.1,200.1,0.1,632659.6723355576,3697159.935619314
+NEON.PLA.D11.CLBJ.00047,CLBJ_018,41.0,Quercus marilandica,blackjack oak,oak,small tree,Live,5.4,,,,2019.0,8.1,215.3,0.1,632656.7443532426,3697158.1142855203
+NEON.PLA.D11.CLBJ.00088,CLBJ_022,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.9,,,,2019.0,9.0,143.9,0.1,632747.1157672162,3697229.090091045
+NEON.PLA.D11.CLBJ.00087,CLBJ_022,49.0,Quercus stellata,post oak,oak,single bole tree,Live,8.7,,,,2019.0,11.1,139.7,0.1,632748.9923665526,3697227.8963815407
+NEON.PLA.D11.CLBJ.00081,CLBJ_018,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,5.6,,,,2019.0,7.5,169.0,0.1,632662.8560674654,3697157.362796124
+NEON.PLA.D11.CLBJ.00058,CLBJ_022,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.6,,,,2019.0,5.0,10.9,0.1,632753.083477215,3697231.3377935635
+NEON.PLA.D11.CLBJ.00089,CLBJ_022,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",5.2,,,,2019.0,5.7,123.4,0.1,632746.5716328205,3697233.2242597817
+NEON.PLA.D11.CLBJ.00027,CLBJ_009,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.4,6.6,6.1,Partially shaded,2025.0,7.5,297.8,0.1,632714.5596426859,3697139.1028998024
+NEON.PLA.D11.CLBJ.00007,CLBJ_009,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,11.7,12.5,7.0,Full sun,2025.0,4.3,359.0,0.1,632721.1189546523,3697139.904345089
+NEON.PLA.D11.CLBJ.00393,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",6.3,5.0,3.7,Mostly shaded,2025.0,5.7,236.1,0.1,632808.105929975,3696201.713852879
+NEON.PLA.D11.CLBJ.00400,CLBJ_011,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,"Live, physically damaged",11.9,8.4,7.9,Partially shaded,2025.0,5.8,207.0,0.1,632810.2038551016,3696199.7251621597
+NEON.PLA.D11.CLBJ.00377,CLBJ_011,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,"Live, physically damaged",12.7,12.9,11.8,Full sun,2025.0,7.0,181.6,0.1,632812.641548529,3696197.895729195
+NEON.PLA.D11.CLBJ.00395,CLBJ_011,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",12.3,10.8,10.7,Partially shaded,2025.0,6.6,13.8,0.1,632804.19932082,3696201.2484862474
+NEON.PLA.D11.CLBJ.00399,CLBJ_011,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,10.7,8.4,6.8,Partially shaded,2025.0,9.4,199.5,0.1,632809.6992155233,3696196.0321699837
+NEON.PLA.D11.CLBJ.00380,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.0,12.0,10.8,Partially shaded,2025.0,3.5,143.1,0.1,632814.9384707886,3696202.0941036954
+NEON.PLA.D11.CLBJ.00134,CLBJ_026,33.0,Quercus stellata,post oak,oak,single bole tree,Live,5.6,,,,2019.0,10.7,351.2,0.1,633030.1990515518,3696926.8220436815
+NEON.PLA.D11.CLBJ.00149,CLBJ_026,31.0,Quercus stellata,post oak,oak,single bole tree,Live,5.3,,,,2019.0,13.0,40.5,0.1,633019.3208246283,3696925.218277553
+NEON.PLA.D11.CLBJ.00135,CLBJ_026,33.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,12.2,,,,2019.0,11.1,346.0,0.1,633029.1506669589,3696927.018282562
+NEON.PLA.D11.CLBJ.00133,CLBJ_026,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.2,,,,2019.0,11.5,302.4,0.1,633022.1262288567,3696922.4100081422
+NEON.PLA.D11.CLBJ.00146,CLBJ_026,49.0,Quercus stellata,post oak,oak,single bole tree,Live,6.0,,,,2019.0,10.0,141.8,0.1,633017.6890839536,3696928.343431068
+NEON.PLA.D11.CLBJ.00299,CLBJ_019,31.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",4.8,4.9,4.2,Full sun,2024.0,2.7,33.3,0.1,633012.5903616087,3696077.6106798756
+NEON.PLA.D11.CLBJ.00496,CLBJ_024,51.0,Sideroxylon lanuginosum,Sideroxylon lanuginosum,other broadleaf,small tree,Live,2.0,2.0,2.0,Partially shaded,2025.0,11.0,229.3,0.1,633082.9865223018,3696148.160917558
+NEON.PLA.D11.CLBJ.00219,CLBJ_015,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",5.5,5.5,4.4,Full shade,2025.0,3.9,294.4,0.1,632879.0563337229,3696285.7511072764
+NEON.PLA.D11.CLBJ.00240,CLBJ_015,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.5,4.7,3.9,Full shade,2025.0,6.8,251.0,0.1,632865.381473686,3696291.75313655
+NEON.PLA.D11.CLBJ.00227,CLBJ_015,33.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",11.1,11.6,11.0,Full sun,2025.0,1.6,342.1,0.1,632882.1162294116,3696285.6625510463
+NEON.PLA.D11.CLBJ.00213,CLBJ_015,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",7.7,6.3,5.3,Mostly shaded,2025.0,4.7,104.6,0.1,632876.3592331012,3696292.7822740166
+NEON.PLA.D11.CLBJ.00698,CLBJ_015,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,"Live, physically damaged",7.6,7.0,5.6,Partially shaded,2025.0,5.0,220.8,0.1,632878.86589698,3696300.551024722
+NEON.PLA.D11.CLBJ.00211,CLBJ_015,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",13.0,15.5,13.0,Full sun,2025.0,10.3,180.4,0.1,632882.061093019,3696294.036251004
+NEON.PLA.D11.CLBJ.00239,CLBJ_015,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,13.2,10.6,8.9,Full sun,2025.0,6.8,253.9,0.1,632865.2777017517,3696292.0812603575
+NEON.PLA.D11.CLBJ.00212,CLBJ_015,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.5,11.3,8.0,Full sun,2025.0,9.1,334.7,0.1,632878.7190434432,3696292.367151202
+NEON.PLA.D11.CLBJ.00238,CLBJ_015,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.7,5.4,4.9,Mostly shaded,2025.0,7.4,255.4,0.1,632864.6499521384,3696292.101686749
+NEON.PLA.D11.CLBJ.00209,CLBJ_015,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.0,9.6,7.7,Mostly shaded,2025.0,4.0,354.4,0.1,632882.217668401,3696288.1209096
+NEON.PLA.D11.CLBJ.00241,CLBJ_015,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",9.4,6.9,5.8,Partially shaded,2025.0,4.7,28.6,0.11,632864.4088517323,3696288.2675199844
+NEON.PLA.D11.CLBJ.00214,CLBJ_015,41.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,"Live, physically damaged",3.9,3.5,3.0,Full shade,2025.0,1.1,112.2,0.1,632872.8294576433,3696293.551375135
+NEON.PLA.D11.CLBJ.00237,CLBJ_015,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.6,7.6,5.1,Mostly shaded,2025.0,6.4,222.0,0.1,632867.5285641192,3696289.210873117
+NEON.PLA.D11.CLBJ.00586,CLBJ_017,49.0,Quercus stellata,post oak,oak,single bole tree,Live,4.3,,,,2019.0,5.1,115.0,0.1,632626.4871697138,3697052.661646865
+NEON.PLA.D11.CLBJ.00217,CLBJ_015,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.6,10.9,6.9,Mostly shaded,2025.0,8.6,277.6,0.1,632874.0835463539,3696285.2774049565
+NEON.PLA.D11.CLBJ.00572,CLBJ_017,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.6,,,,2019.0,5.7,129.9,0.1,632636.3018413654,3697040.7887371
+NEON.PLA.D11.CLBJ.00236,CLBJ_015,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.7,5.9,4.7,Partially shaded,2025.0,7.0,191.7,0.1,632870.3914889325,3696287.112440326
+NEON.PLA.D11.CLBJ.00589,CLBJ_017,31.0,Quercus stellata,post oak,oak,single bole tree,Live,10.0,,,,2019.0,7.4,2.0,0.1,632622.1632562756,3697041.77149212
+NEON.PLA.D11.CLBJ.00215,CLBJ_015,41.0,Quercus stellata,post oak,oak,multi-bole tree,Live,10.0,10.2,9.0,Partially shaded,2025.0,1.1,125.2,0.1,632872.7098593882,3696293.3329244526
+NEON.PLA.D11.CLBJ.00544,CLBJ_023,33.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.2,6.3,5.9,Full sun,2024.0,9.2,278.7,0.1,633142.8258562414,3696256.617599546
+NEON.PLA.D11.CLBJ.00543,CLBJ_023,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.8,10.3,9.8,Partially shaded,2024.0,6.6,219.8,0.1,633148.0742759834,3696270.1523287445
+NEON.PLA.D11.CLBJ.00542,CLBJ_023,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,"Live, physically damaged",8.4,7.0,5.1,Mostly shaded,2024.0,8.7,261.8,0.1,633143.6879467911,3696273.982128277
+NEON.PLA.D11.CLBJ.00677,CLBJ_002,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,multi-bole tree,Live,9.2,9.4,6.5,Full sun,2025.0,6.0,206.5,0.1,632869.5508131214,3696980.5943938307
+NEON.PLA.D11.CLBJ.00578,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.0,9.0,7.9,Full sun,2025.0,6.4,263.1,0.1,633046.0103530115,3696833.1751242317
+NEON.PLA.D11.CLBJ.00590,CLBJ_012,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.3,7.2,6.9,Partially shaded,2025.0,3.8,27.5,0.1,633043.9776447302,3696827.371641166
+NEON.PLA.D11.CLBJ.00894,CLBJ_005,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",11.3,9.0,9.0,Mostly shaded,2024.0,6.0,121.8,0.1,632967.8953561579,3696981.5662652273
+NEON.PLA.D11.CLBJ.00563,CLBJ_012,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.2,5.5,3.2,Mostly shaded,2025.0,9.5,277.6,0.12,633053.4754523676,3696825.048435707
+NEON.PLA.D11.CLBJ.00564,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.9,6.2,4.7,Mostly shaded,2025.0,5.5,258.7,0.1,633046.9706193779,3696832.8662962066
+NEON.PLA.D11.CLBJ.00891,CLBJ_005,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,6.2,7.6,7.3,Mostly shaded,2024.0,1.1,84.0,0.1,632963.8899740849,3696984.8429813096
+NEON.PLA.D11.CLBJ.00896,CLBJ_005,51.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,Live,11.5,7.4,5.7,Partially shaded,2024.0,3.8,200.7,0.1,632971.2307955937,3696991.090312683
+NEON.PLA.D11.CLBJ.00565,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.0,5.7,5.6,Partially shaded,2025.0,5.9,255.0,0.1,633046.6650376249,3696832.416967634
+NEON.PLA.D11.CLBJ.00839,CLBJ_012,33.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,"Live, physically damaged",7.9,5.7,4.6,Mostly shaded,2025.0,5.9,290.4,0.12,633057.3620362619,3696825.848575079
+NEON.PLA.D11.CLBJ.00811,CLBJ_012,49.0,Quercus stellata,post oak,oak,single bole tree,Live,8.2,5.9,5.6,Mostly shaded,2025.0,6.0,168.0,0.1,633043.4664701449,3696838.2521143956
+NEON.PLA.D11.CLBJ.00830,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.2,6.5,4.8,Full sun,2025.0,3.2,104.0,0.1,633055.4689463241,3696833.169849934
+NEON.PLA.D11.CLBJ.00818,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.6,11.0,9.2,Full sun,2025.0,4.8,5.1,0.1,633052.7906926249,3696838.724997114
+NEON.PLA.D11.CLBJ.00841,CLBJ_012,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.0,11.4,7.6,Full sun,2025.0,3.1,342.0,0.12,633061.9340473175,3696826.7402752005
+NEON.PLA.D11.CLBJ.00671,CLBJ_012,49.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,Live,6.7,4.1,3.6,Full shade,2025.0,8.7,166.3,0.1,633044.2794918708,3696835.668522656
+NEON.PLA.D11.CLBJ.00809,CLBJ_012,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.0,6.4,5.4,Mostly shaded,2025.0,2.7,139.5,0.1,633043.9725097305,3696842.0679038926
+NEON.PLA.D11.CLBJ.00670,CLBJ_012,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",5.7,3.1,2.9,Full shade,2025.0,2.6,256.6,0.1,633059.7097827166,3696843.385455451
+NEON.PLA.D11.CLBJ.00832,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",9.4,7.6,6.0,Partially shaded,2025.0,9.4,92.2,0.1,633061.7570714141,3696833.5831545945
+NEON.PLA.D11.CLBJ.00836,CLBJ_012,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.2,7.2,6.5,Mostly shaded,2025.0,10.1,297.1,0.12,633053.9008506734,3696828.393003563
+NEON.PLA.D11.CLBJ.00835,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.2,10.0,7.6,Mostly shaded,2025.0,7.0,103.8,0.1,633059.1619399593,3696832.274265797
+NEON.PLA.D11.CLBJ.00833,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.5,6.7,3.4,Mostly shaded,2025.0,4.5,96.1,0.1,633056.8385207485,3696833.465811679
+NEON.PLA.D11.CLBJ.00838,CLBJ_012,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.6,6.2,3.1,Mostly shaded,2025.0,6.9,271.6,0.12,633055.9946902063,3696823.984659307
+NEON.PLA.D11.CLBJ.00817,CLBJ_012,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",6.5,7.0,4.3,Full shade,2025.0,8.4,12.0,0.1,633054.1104582028,3696842.160439846
+NEON.PLA.D11.CLBJ.00826,CLBJ_012,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",6.0,4.8,4.5,Partially shaded,2025.0,6.0,182.5,0.1,633061.9772836758,3696837.9937106706
+NEON.PLA.D11.CLBJ.00810,CLBJ_012,49.0,Quercus stellata,post oak,oak,single bole tree,Live,11.4,9.7,8.2,Partially shaded,2025.0,3.6,99.9,0.1,633045.7653935741,3696843.502055239
+NEON.PLA.D11.CLBJ.00806,CLBJ_012,49.0,Quercus stellata,post oak,oak,single bole tree,Live,10.9,8.2,6.8,Partially shaded,2025.0,6.3,179.3,0.1,633042.2959671053,3696837.8214701707
+NEON.PLA.D11.CLBJ.00812,CLBJ_012,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.6,9.8,8.6,Full sun,2025.0,6.5,135.6,0.1,633046.7668117133,3696839.476927582
+NEON.PLA.D11.CLBJ.00438,CLBJ_010,49.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.8,6.8,5.4,Full sun,2024.0,5.7,104.3,0.1,633346.673389669,3696242.1851056274
+NEON.PLA.D11.CLBJ.00441,CLBJ_010,33.0,Quercus stellata,post oak,oak,single bole tree,Live,7.7,8.0,7.2,Full sun,2024.0,4.2,353.3,0.1,633360.9429829041,3696228.192316728
+NEON.PLA.D11.CLBJ.00611,CLBJ_021,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.6,6.8,6.6,Mostly shaded,2025.0,5.9,46.5,0.1,632997.444708789,3696418.7602919964
+NEON.PLA.D11.CLBJ.00653,CLBJ_021,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",9.5,5.3,3.5,Partially shaded,2025.0,5.7,37.6,0.1,632986.9448274341,3696409.308050967
+NEON.PLA.D11.CLBJ.00603,CLBJ_021,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.9,10.7,6.5,Mostly shaded,2025.0,5.7,167.7,0.1,632984.3792732018,3696419.222840226
+NEON.PLA.D11.CLBJ.00650,CLBJ_021,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.8,4.9,3.4,Mostly shaded,2025.0,8.8,88.2,0.1,632992.2626577312,3696405.0684146797
+NEON.PLA.D11.CLBJ.00615,CLBJ_021,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.7,5.2,3.5,Full shade,2025.0,9.6,31.4,0.1,632998.1666924657,3696422.893087654
+NEON.PLA.D11.CLBJ.00604,CLBJ_021,49.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,"Live, physically damaged",10.5,6.6,4.1,Full shade,2025.0,5.1,130.7,0.1,632987.0314851146,3696421.4662981406
+NEON.PLA.D11.CLBJ.00614,CLBJ_021,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",9.0,5.4,2.8,Mostly shaded,2025.0,7.2,36.0,0.1,632997.3970538166,3696420.5239223596
+NEON.PLA.D11.CLBJ.00992,CLBJ_021,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.0,8.0,6.4,Mostly shaded,2025.0,2.5,232.0,0.1,632991.194973116,3696413.159846312
+NEON.PLA.D11.CLBJ.00651,CLBJ_021,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",9.5,6.2,4.5,Full sun,2025.0,8.3,38.3,0.1,632988.6111659638,3696411.305643875
+NEON.PLA.D11.CLBJ.00613,CLBJ_021,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.9,5.8,4.6,Mostly shaded,2025.0,7.2,0.1,0.1,632993.1775663643,3696421.898989034
+NEON.PLA.D11.CLBJ.00423,CLBJ_030,33.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,5.0,,,,2019.0,11.3,296.9,0.1,633232.1916879155,3696379.9745122152
+NEON.PLA.D11.CLBJ.00616,CLBJ_021,41.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",6.3,5.1,3.4,Full shade,2025.0,9.7,47.5,0.1,633000.3165901671,3696421.252225014
+NEON.PLA.D11.CLBJ.00779,CLBJ_029,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.4,,,,2019.0,8.6,0.9,0.1,633112.3900829289,3696451.787939039
+NEON.PLA.D11.CLBJ.00790,CLBJ_029,41.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",9.2,,,,2019.0,2.8,71.0,0.1,633114.9024520117,3696444.100590832
+NEON.PLA.D11.CLBJ.00771,CLBJ_029,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.8,,,,2019.0,6.8,233.0,0.1,633106.8242785317,3696439.0966578424
+NEON.PLA.D11.CLBJ.00977,CLBJ_008,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.6,8.4,6.7,Full sun,2025.0,7.0,240.8,0.1,632985.359545459,3696533.108982386
+NEON.PLA.D11.CLBJ.00789,CLBJ_029,41.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",6.0,,,,2019.0,4.8,63.2,0.1,633116.5394119286,3696445.353212195
+NEON.PLA.D11.CLBJ.00800,CLBJ_001,33.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.6,6.5,6.0,Partially shaded,2025.0,8.0,287.9,0.1,633143.822244769,3696317.8468529424
+NEON.PLA.D11.CLBJ.00786,CLBJ_029,41.0,Quercus stellata,post oak,oak,single bole tree,Live,11.1,,,,2019.0,9.6,11.0,0.1,633114.0867663557,3696452.612620961
+NEON.PLA.D11.CLBJ.00980,CLBJ_008,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",6.2,6.3,3.2,Full shade,2025.0,10.9,207.2,0.1,632986.487632595,3696526.8293615314
+NEON.PLA.D11.CLBJ.00988,CLBJ_008,31.0,Quercus stellata,post oak,oak,multi-bole tree,Live,10.1,12.3,8.0,Full sun,2025.0,1.2,83.2,0.1,632982.7995586097,3696526.391084762
+NEON.PLA.D11.CLBJ.00978,CLBJ_008,41.0,Quercus stellata,post oak,oak,single bole tree,Live,11.2,9.4,7.0,Partially shaded,2025.0,8.0,223.0,0.1,632986.0140131195,3696530.6731703873
+NEON.PLA.D11.CLBJ.00777,CLBJ_029,31.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,4.2,,,,2019.0,3.7,70.9,0.1,633105.962310975,3696434.227706226
+NEON.PLA.D11.CLBJ.00770,CLBJ_029,31.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,6.4,,,,2019.0,5.8,48.8,0.1,633106.8300064716,3696436.8373988685
+NEON.PLA.D11.CLBJ.00979,CLBJ_008,41.0,Quercus stellata,post oak,oak,single bole tree,Live,11.3,9.3,6.7,Full sun,2025.0,6.3,220.7,0.1,632987.3617800558,3696531.747753682
+NEON.PLA.D11.CLBJ.00785,CLBJ_029,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,7.1,,,,2019.0,10.8,47.2,0.1,633120.1792825366,3696450.5269660857
+NEON.PLA.D11.CLBJ.00787,CLBJ_029,41.0,Quercus stellata,post oak,oak,single bole tree,Live,11.4,,,,2019.0,8.9,4.5,0.1,633112.953285952,3696452.06156427
+NEON.PLA.D11.CLBJ.01484,CLBJ_007,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",6.4,3.9,2.5,Partially shaded,2025.0,3.4,48.7,0.1,632874.5212980539,3696416.7250056714
+NEON.PLA.D11.CLBJ.01477,CLBJ_007,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",11.5,6.3,6.2,Partially shaded,2025.0,12.2,104.5,0.1,632873.5024012126,3696421.2013639505
+NEON.PLA.D11.CLBJ.01498,CLBJ_007,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.6,6.9,6.5,Partially shaded,2025.0,9.4,45.9,0.1,632868.563387199,3696410.735580288
+NEON.PLA.D11.CLBJ.01496,CLBJ_007,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.7,11.0,10.9,Full sun,2025.0,8.8,35.9,0.1,632866.9730767392,3696411.322366436
+NEON.PLA.D11.CLBJ.00750,CLBJ_007,41.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,Live,7.8,5.4,5.3,Partially shaded,2025.0,4.2,134.9,0.1,632874.9420273184,3696411.516339403
+NEON.PLA.D11.CLBJ.00751,CLBJ_007,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,multi-bole tree,Live,7.7,7.0,5.4,Mostly shaded,2025.0,2.1,230.0,0.1,632870.3583066694,3696413.13114602
+NEON.PLA.D11.CLBJ.01500,CLBJ_007,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.4,5.1,4.8,Partially shaded,2025.0,5.6,323.6,0.1,632868.643854235,3696418.9884052654
+NEON.PLA.D11.CLBJ.01497,CLBJ_007,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,11.9,8.1,7.8,Partially shaded,2025.0,0.9,333.2,0.1,632871.5612102133,3696415.284327237
+NEON.PLA.D11.CLBJ.01094,CLBJ_027,31.0,Quercus stellata,post oak,oak,multi-bole tree,Live,9.8,,,,2019.0,6.8,48.4,0.1,633046.9290270155,3696558.181698246
+NEON.PLA.D11.CLBJ.01096,CLBJ_027,31.0,Quercus stellata,post oak,oak,single bole tree,Live,11.2,,,,2019.0,8.5,17.3,0.1,633044.3716864297,3696561.7824667958
+NEON.PLA.D11.CLBJ.01095,CLBJ_027,31.0,Quercus stellata,post oak,oak,single bole tree,Live,8.3,,,,2019.0,9.0,41.6,0.1,633047.8193359139,3696560.3971828143
+NEON.PLA.D11.CLBJ.01093,CLBJ_027,31.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,7.0,,,,2019.0,3.6,36.0,0.1,633043.9600269083,3696556.5794611797
+NEON.PLA.D11.CLBJ.01076,CLBJ_003,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.6,11.4,7.9,Partially shaded,2025.0,3.4,97.2,0.1,632726.2411899845,3696984.4028670057
+NEON.PLA.D11.CLBJ.01073,CLBJ_003,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.1,8.1,6.5,Partially shaded,2025.0,4.6,209.2,0.1,632720.6238455679,3696980.8135584444
+NEON.PLA.D11.CLBJ.01063,CLBJ_003,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.3,3.1,2.9,Mostly shaded,2025.0,1.9,190.2,0.1,632722.5315389934,3696982.9590283446
+NEON.PLA.D11.CLBJ.01255,CLBJ_003,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",9.4,6.5,5.5,Mostly shaded,2025.0,7.6,204.2,0.1,632719.7525849428,3696977.896887117
+NEON.PLA.D11.CLBJ.01071,CLBJ_003,33.0,Quercus marilandica,blackjack oak,oak,multi-bole tree,"Live, physically damaged",5.5,8.0,6.7,Partially shaded,2025.0,5.6,342.0,0.1,632731.3605048315,3696980.3389164913
+NEON.PLA.D11.CLBJ.01261,CLBJ_003,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.0,4.5,4.4,Mostly shaded,2025.0,3.4,240.9,0.1,632727.8491744417,3696993.941459707
+NEON.PLA.D11.CLBJ.01260,CLBJ_003,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.7,12.7,11.7,Full sun,2025.0,2.4,34.2,0.1,632724.2170001068,3696986.813993378
+NEON.PLA.D11.CLBJ.01069,CLBJ_003,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.8,8.5,8.1,Partially shaded,2025.0,2.1,179.4,0.1,632712.6739907466,3696992.4321151446
+NEON.PLA.D11.CLBJ.01258,CLBJ_003,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.6,9.8,8.4,Partially shaded,2025.0,2.4,163.9,0.1,632713.317555168,3696992.22613003
+NEON.PLA.D11.CLBJ.01453,CLBJ_002,49.0,Quercus stellata,post oak,oak,single bole tree,Live,7.7,7.1,3.8,Mostly shaded,2025.0,5.0,152.6,0.1,632864.492998924,3696991.5729230745
+NEON.PLA.D11.CLBJ.01451,CLBJ_002,49.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,12.1,7.2,7.1,Full sun,2025.0,4.8,152.7,0.1,632864.3935178616,3696991.7466372834
+NEON.PLA.D11.CLBJ.01454,CLBJ_002,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.6,9.9,5.6,Full sun,2025.0,2.4,335.2,0.1,632871.2213150022,3696988.1426659487
+NEON.PLA.D11.CLBJ.01448,CLBJ_002,49.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,6.9,4.4,3.5,Mostly shaded,2025.0,9.3,176.8,0.1,632862.7111399964,3696986.726500893
+NEON.PLA.D11.CLBJ.01450,CLBJ_002,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.5,7.1,7.1,Full sun,2025.0,9.0,164.3,0.1,632864.6274040138,3696987.347774282
+NEON.PLA.D11.CLBJ.01455,CLBJ_002,49.0,Quercus stellata,post oak,oak,single bole tree,Live,5.9,7.4,5.3,Partially shaded,2025.0,3.0,147.0,0.1,632863.8259171051,3696993.4959882963
+NEON.PLA.D11.CLBJ.01437,CLBJ_002,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,12.2,6.8,5.9,Full sun,2025.0,7.4,84.4,0.1,632879.5926827599,3696986.6861134586
+NEON.PLA.D11.CLBJ.01211,CLBJ_002,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,9.7,7.3,6.3,Partially shaded,2025.0,3.8,69.2,0.1,632875.7803375704,3696987.313406457
+NEON.PLA.D11.CLBJ.01444,CLBJ_002,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, broken bole",6.0,,,Mostly shaded,2025.0,3.8,15.6,0.1,632873.2498953183,3696989.624017754
+NEON.PLA.D11.CLBJ.01414,CLBJ_016,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.9,7.9,7.4,Partially shaded,2025.0,4.5,184.8,0.1,632932.1694497049,3697070.406782133
+NEON.PLA.D11.CLBJ.01348,CLBJ_028,41.0,Morus rubra,Morus rubra,other broadleaf,single bole tree,Live,7.9,,,,2020.0,2.7,184.8,0.1,632931.767069823,3696742.11046928
+NEON.PLA.D11.CLBJ.01422,CLBJ_016,31.0,Prunus mexicana,Prunus mexicana,other broadleaf,single bole tree,"Live, physically damaged",5.0,6.3,4.5,Mostly shaded,2025.0,3.8,62.1,0.12,632925.8323093944,3697066.729133294
+NEON.PLA.D11.CLBJ.01426,CLBJ_016,31.0,Quercus sp.,Quercus sp.,oak,single bole tree,"Live, physically damaged",6.0,5.2,4.7,Mostly shaded,2025.0,5.9,40.2,0.12,632926.2822003576,3697069.4573965687
+NEON.PLA.D11.CLBJ.01350,CLBJ_028,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.1,,,,2020.0,9.5,196.1,0.1,632929.3585107937,3696735.6735980357
+NEON.PLA.D11.CLBJ.01016,CLBJ_016,49.0,Sideroxylon lanuginosum,Sideroxylon lanuginosum,other broadleaf,single bole tree,Live,8.8,6.3,5.2,Partially shaded,2025.0,7.0,179.5,0.1,632922.6760857485,3697077.9372665384
+NEON.PLA.D11.CLBJ.01416,CLBJ_016,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.7,4.4,2.4,Partially shaded,2025.0,7.3,346.9,0.1,632941.1764454558,3697071.9350245614
+NEON.PLA.D11.CLBJ.01417,CLBJ_016,33.0,Quercus stellata,post oak,oak,single bole tree,Live,9.9,6.3,5.6,Partially shaded,2025.0,7.7,334.3,0.1,632939.4918250487,3697071.763293064
+NEON.PLA.D11.CLBJ.01319,CLBJ_016,33.0,Quercus stellata,post oak,oak,single bole tree,Live,13.4,9.9,9.4,Full sun,2025.0,8.0,274.8,0.1,632934.859057126,3697065.494422747
+NEON.PLA.D11.CLBJ.01158,CLBJ_014,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,"Live, physically damaged",7.1,7.4,7.0,Partially shaded,2025.0,8.9,239.2,0.1,632843.8712569172,3697199.6928185024
+NEON.PLA.D11.CLBJ.01160,CLBJ_014,33.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,"Live, physically damaged",8.4,9.0,7.2,Mostly shaded,2025.0,2.4,276.0,0.1,632849.090147451,3697184.6858683117
+NEON.PLA.D11.CLBJ.01177,CLBJ_014,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.0,6.6,5.7,Full sun,2025.0,3.1,255.0,0.1,632838.4626299386,3697193.19166096
+NEON.PLA.D11.CLBJ.01159,CLBJ_014,33.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",10.3,11.2,10.9,Partially shaded,2025.0,2.9,291.1,0.1,632848.771434749,3697185.4789907434
+NEON.PLA.D11.CLBJ.01164,CLBJ_014,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.5,9.6,8.0,Partially shaded,2025.0,7.7,324.5,0.1,632847.005587241,3697190.7036894914
+NEON.PLA.D11.CLBJ.01184,CLBJ_014,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.3,5.0,4.3,Full sun,2025.0,1.2,5.0,0.1,632831.6675868912,3697184.8854336375
+NEON.PLA.D11.CLBJ.01133,CLBJ_014,31.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",7.6,8.7,4.9,Full sun,2025.0,9.0,60.0,0.1,632839.3572286341,3697188.19
+NEON.PLA.D11.CLBJ.00657,CLBJ_036,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.5,8.5,8.4,Open grown,2022.0,11.0,126.2,0.1,632060.8785634335,3696268.816337656
+NEON.PLA.D11.CLBJ.02535,CLBJ_046,51.0,Quercus stellata,post oak,oak,single bole tree,Live,7.1,5.6,3.7,Full shade,2016.0,5.8,220.9,0.1,631737.4835032804,3696930.460049879
+NEON.PLA.D11.CLBJ.02582,CLBJ_046,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",3.8,1.6,0.6,Full shade,2016.0,9.5,14.5,0.1,631723.9076100385,3696924.0624025837
+NEON.PLA.D11.CLBJ.02537,CLBJ_046,33.0,Quercus stellata,post oak,oak,single bole tree,Live,7.8,8.5,7.4,Full sun,2016.0,7.3,287.6,0.1,631734.8257081251,3696916.9973002025
+NEON.PLA.D11.CLBJ.02546,CLBJ_046,33.0,Quercus marilandica,blackjack oak,oak,single bole tree,"Live, disease damaged",8.9,6.4,4.3,Partially shaded,2016.0,10.9,320.0,0.1,631734.7776150544,3696923.13988443
+NEON.PLA.D11.CLBJ.02581,CLBJ_046,31.0,Quercus stellata,post oak,oak,single bole tree,Live,4.8,3.7,1.7,Mostly shaded,2016.0,8.1,14.9,0.1,631723.6117756246,3696922.6926462427
+NEON.PLA.D11.CLBJ.01003,CLBJ_046,31.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,11.6,6.8,3.4,Partially shaded,2016.0,6.0,84.4,0.1,631727.5003643999,3696915.4504973986
+NEON.PLA.D11.CLBJ.01009,CLBJ_046,31.0,Morus rubra,Morus rubra,other broadleaf,single bole tree,Live,6.4,6.0,3.8,Partially shaded,2016.0,1.0,4.0,0.1,631721.5987564737,3696915.8625640506
+NEON.PLA.D11.CLBJ.02551,CLBJ_046,33.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,5.6,5.0,4.9,Full shade,2016.0,8.2,354.3,0.1,631740.969578052,3696922.949455674
+NEON.PLA.D11.CLBJ.02559,CLBJ_046,51.0,Quercus stellata,post oak,oak,single bole tree,Live,6.5,4.9,4.8,Full shade,2016.0,9.1,194.1,0.1,631739.0641033927,3696926.018164661
+NEON.PLA.D11.CLBJ.02553,CLBJ_046,51.0,Quercus stellata,post oak,oak,single bole tree,Live,7.4,3.5,2.1,Full shade,2016.0,5.3,260.6,0.1,631736.0521675434,3696933.9783724
+NEON.PLA.D11.CLBJ.02556,CLBJ_046,51.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,7.8,4.3,3.5,Full shade,2016.0,6.8,227.5,0.1,631736.2675141096,3696930.249986588
+NEON.PLA.D11.CLBJ.02539,CLBJ_046,33.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,6.3,6.1,3.8,Partially shaded,2016.0,5.7,307.8,0.1,631737.2801164294,3696918.283570206
+NEON.PLA.D11.CLBJ.01005,CLBJ_046,31.0,Quercus stellata,post oak,oak,single bole tree,Live,10.0,6.1,4.4,Full sun,2016.0,7.0,4.2,0.1,631722.0416673799,3696921.8462013407
+NEON.PLA.D11.CLBJ.02547,CLBJ_046,33.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,10.1,5.4,3.7,Partially shaded,2016.0,7.5,328.0,0.1,631737.8096055182,3696921.150360721
+NEON.PLA.D11.CLBJ.02563,CLBJ_046,51.0,Quercus stellata,post oak,oak,single bole tree,Live,12.1,12.6,8.2,Full sun,2016.0,9.8,221.0,0.1,631734.8516215158,3696927.4478461137
+NEON.PLA.D11.CLBJ.02554,CLBJ_046,51.0,Quercus stellata,post oak,oak,single bole tree,Live,4.2,3.3,2.6,Full shade,2016.0,9.3,237.1,0.1,631733.4725352598,3696929.7924776156
+NEON.PLA.D11.CLBJ.02590,CLBJ_046,31.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,8.2,5.4,4.1,Full sun,2016.0,1.7,65.1,0.1,631723.0709748243,3696915.580760883
+NEON.PLA.D11.CLBJ.02536,CLBJ_046,33.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.8,8.1,5.7,Full sun,2016.0,9.4,293.5,0.1,631733.1636353008,3696918.538241248
+NEON.PLA.D11.CLBJ.01002,CLBJ_046,31.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,8.9,5.6,3.5,Full sun,2016.0,10.1,56.4,0.1,631729.9415045312,3696920.4542546477
+NEON.PLA.D11.CLBJ.02557,CLBJ_046,51.0,Quercus stellata,post oak,oak,single bole tree,Live,10.6,8.0,5.0,Partially shaded,2016.0,6.8,186.8,0.1,631740.4758530154,3696928.091834545
+NEON.PLA.D11.CLBJ.02538,CLBJ_046,51.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,5.9,4.3,4.0,Full shade,2016.0,9.6,252.0,0.1,631732.1508574436,3696931.877436854
+NEON.PLA.D11.CLBJ.02580,CLBJ_046,49.0,Quercus stellata,post oak,oak,multi-bole tree,Live,12.4,17.0,11.1,Full sun,2016.0,4.4,159.9,0.1,631723.1481026562,3696930.939985291
+NEON.PLA.D11.CLBJ.02576,CLBJ_046,49.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,8.7,7.8,3.3,Mostly shaded,2016.0,4.7,172.4,0.1,631722.2576050343,3696930.413286961
+NEON.PLA.D11.CLBJ.01006,CLBJ_046,31.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,6.1,5.1,2.6,Partially shaded,2016.0,7.7,50.3,0.1,631727.4533765739,3696919.783512195
+NEON.PLA.D11.CLBJ.02571,CLBJ_046,49.0,Quercus stellata,post oak,oak,single bole tree,Live,5.9,4.2,3.0,Mostly shaded,2016.0,8.7,135.6,0.1,631727.7230710625,3696928.8560876874
+NEON.PLA.D11.CLBJ.01007,CLBJ_046,31.0,Quercus stellata,post oak,oak,single bole tree,Live,7.8,6.0,5.9,Partially shaded,2016.0,5.9,62.5,0.1,631726.7623639157,3696917.5893168184
+NEON.PLA.D11.CLBJ.01589,CLBJ_039,49.0,Quercus stellata,post oak,oak,multi-bole tree,Live,6.5,4.7,3.9,Full sun,2016.0,4.4,108.0,0.1,631816.5336486717,3688712.282325225
+NEON.PLA.D11.CLBJ.01626,CLBJ_045,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,9.9,6.7,5.3,Full sun,2016.0,4.4,267.6,0.1,633137.0658595476,3696924.8017471237
+NEON.PLA.D11.CLBJ.01607,CLBJ_045,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,10.6,8.8,7.6,Full sun,2016.0,6.5,351.3,0.1,633140.4788046684,3696931.411210264
+NEON.PLA.D11.CLBJ.01604,CLBJ_045,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,11.8,4.8,3.7,Partially shaded,2016.0,6.6,29.5,0.1,633144.7119954968,3696930.7303475933
+NEON.PLA.D11.CLBJ.01618,CLBJ_045,49.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,6.3,3.6,3.1,Full sun,2016.0,0.8,123.7,0.1,633132.2645632977,3696934.554124458
+NEON.PLA.D11.CLBJ.01538,CLBJ_038,49.0,Quercus stellata,post oak,oak,single bole tree,Live,8.9,9.5,6.4,Full sun,2021.0,7.3,99.0,0.1,630439.4511248864,3698101.4350284054
+NEON.PLA.D11.CLBJ.01545,CLBJ_038,49.0,Quercus stellata,post oak,oak,multi-bole tree,Live,9.0,9.2,8.2,Partially shaded,2021.0,5.6,155.9,0.1,630434.5276505782,3698097.4651286076
+NEON.PLA.D11.CLBJ.01537,CLBJ_038,41.0,Quercus stellata,post oak,oak,single bole tree,Live,7.8,5.3,4.8,Partially shaded,2021.0,6.4,19.0,0.1,630444.6296361885,3698098.8883188837
+NEON.PLA.D11.CLBJ.01544,CLBJ_038,49.0,Quercus stellata,post oak,oak,single bole tree,Live,10.3,9.1,8.4,Full sun,2021.0,2.9,156.7,0.1,630433.3880819575,3698099.913505494
+NEON.PLA.D11.CLBJ.01539,CLBJ_038,49.0,Quercus stellata,post oak,oak,multi-bole tree,Live,8.8,5.8,5.7,Partially shaded,2021.0,3.6,106.2,0.1,630435.6980572685,3698101.5726320185
+NEON.PLA.D11.CLBJ.01550,CLBJ_038,41.0,Sideroxylon lanuginosum,Sideroxylon lanuginosum,other broadleaf,single bole tree,"Live, physically damaged",5.2,5.2,2.0,Partially shaded,2021.0,4.6,296.4,0.1,630438.4257259029,3698094.882321824
+NEON.PLA.D11.CLBJ.01561,CLBJ_038,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.5,7.6,5.5,Partially shaded,2021.0,4.5,272.8,0.1,630438.051372382,3698093.0568239638
+NEON.PLA.D11.CLBJ.02136,CLBJ_043,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.7,8.7,8.0,Full sun,2022.0,4.8,163.3,0.1,630624.7023304952,3697610.6774520245
+NEON.PLA.D11.CLBJ.02138,CLBJ_043,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.1,4.9,4.4,Partially shaded,2022.0,6.5,64.0,0.1,630619.2431613009,3697607.808412454
+NEON.PLA.D11.CLBJ.02152,CLBJ_043,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, broken bole",3.4,,,Partially shaded,2022.0,4.3,321.5,0.1,630630.5001870624,3697608.4452150743
+NEON.PLA.D11.CLBJ.02082,CLBJ_041,41.0,Quercus stellata,post oak,oak,single bole tree,Live,5.5,7.3,6.1,Full sun,2016.0,10.4,127.3,0.1,624419.7069242009,3697637.919720637
+NEON.PLA.D11.CLBJ.01532,CLBJ_044,51.0,Quercus stellata,post oak,oak,multi-bole tree,Live,5.8,7.8,7.3,Open grown,2016.0,14.9,239.9,0.1,624859.2342438335,3698247.5534900166
+NEON.PLA.D11.CLBJ.02177,CLBJ_043,49.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,5.6,3.7,2.0,Partially shaded,2022.0,8.1,132.7,0.1,630618.9298082207,3697619.448906674
+NEON.PLA.D11.CLBJ.02148,CLBJ_043,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.1,7.0,6.2,Partially shaded,2022.0,2.0,152.4,0.1,630624.2495920702,3697613.5025928416
+NEON.PLA.D11.CLBJ.02183,CLBJ_043,49.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,4.5,3.4,2.9,Partially shaded,2022.0,6.7,150.8,0.1,630616.2456597162,3697619.0934220823
+NEON.PLA.D11.CLBJ.02151,CLBJ_043,33.0,Quercus stellata,post oak,oak,single bole tree,Live,6.8,5.9,3.0,Partially shaded,2022.0,5.0,284.0,0.1,630628.3255213686,3697606.289609478
+NEON.PLA.D11.CLBJ.02147,CLBJ_043,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, disease damaged",7.0,7.1,5.5,Partially shaded,2022.0,8.3,295.0,0.1,630625.6546453676,3697608.5877315723
+NEON.PLA.D11.CLBJ.02176,CLBJ_043,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.0,6.0,4.7,Partially shaded,2022.0,3.0,271.9,0.1,630620.3246493521,3697615.374465535
+NEON.PLA.D11.CLBJ.02149,CLBJ_043,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, other damage",7.7,7.0,4.7,Mostly shaded,2022.0,8.7,281.6,0.1,630624.6546953286,3697606.829377914
+NEON.PLA.D11.CLBJ.02143,CLBJ_043,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",8.4,6.0,5.3,Partially shaded,2022.0,2.8,258.2,0.1,630630.5881713115,3697624.3814110546
+NEON.PLA.D11.CLBJ.02175,CLBJ_043,33.0,Quercus stellata,post oak,oak,single bole tree,Live,10.3,7.0,6.1,Partially shaded,2022.0,6.2,296.9,0.1,630627.6478553165,3697607.8850951977
+NEON.PLA.D11.CLBJ.02184,CLBJ_043,49.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.1,4.3,3.3,Full sun,2022.0,5.4,176.7,0.1,630613.2878457456,3697619.55095419
+NEON.PLA.D11.CLBJ.02182,CLBJ_043,49.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,6.3,3.5,2.7,Mostly shaded,2022.0,8.0,156.3,0.1,630616.1925822132,3697617.616699253
+NEON.PLA.D11.CLBJ.02150,CLBJ_043,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.9,6.4,5.7,Partially shaded,2022.0,6.4,272.5,0.1,630626.7830913819,3697605.359164079
+NEON.PLA.D11.CLBJ.01935,CLBJ_049,31.0,Quercus stellata,post oak,oak,single bole tree,Live,9.1,11.2,8.4,Mostly shaded,2016.0,14.1,59.8,0.1,626844.6192747075,3697943.1685812473
+NEON.PLA.D11.CLBJ.01931,CLBJ_049,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.4,6.3,4.1,Partially shaded,2016.0,1.9,272.4,0.1,626850.8906666228,3697936.3195637423
+NEON.PLA.D11.CLBJ.01930,CLBJ_049,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.0,6.8,6.7,Full shade,2016.0,5.4,144.2,0.1,626845.5947714449,3697941.6152553777
+NEON.PLA.D11.CLBJ.02114,CLBJ_049,41.0,Quercus stellata,post oak,oak,multi-bole tree,Live,9.0,9.9,8.4,Partially shaded,2016.0,5.2,54.5,0.1,626846.6694006955,3697949.01465537
+NEON.PLA.D11.CLBJ.01938,CLBJ_049,49.0,Quercus stellata,post oak,oak,multi-bole tree,Live,5.9,5.6,5.4,Open grown,2016.0,6.1,170.5,0.1,626833.5577903957,3697950.31465783
+NEON.PLA.D11.CLBJ.01945,CLBJ_049,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,5.0,5.2,4.7,Mostly shaded,2016.0,6.6,25.2,0.1,626835.2431433243,3697942.047858546
+NEON.PLA.D11.CLBJ.01940,CLBJ_049,31.0,Quercus stellata,post oak,oak,single bole tree,Live,6.3,4.5,3.7,Partially shaded,2016.0,7.7,77.7,0.1,626839.9562509231,3697937.716333974
+NEON.PLA.D11.CLBJ.01941,CLBJ_049,31.0,Quercus stellata,post oak,oak,multi-bole tree,Live,10.5,12.2,8.8,Full sun,2016.0,5.3,57.0,0.1,626836.87795401,3697938.9625868853
+NEON.PLA.D11.CLBJ.01944,CLBJ_049,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,5.3,4.5,4.4,Mostly shaded,2016.0,5.4,21.6,0.1,626834.4208725845,3697941.096793024
+NEON.PLA.D11.CLBJ.01936,CLBJ_049,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.1,6.1,5.7,Full shade,2016.0,1.3,103.3,0.1,626843.7011325347,3697945.695935342
+NEON.PLA.D11.CLBJ.01901,CLBJ_049,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,9.7,8.4,6.4,Mostly shaded,2016.0,4.5,17.2,0.1,626843.7666862252,3697950.29375263
+NEON.PLA.D11.CLBJ.01932,CLBJ_049,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.5,4.8,4.0,Mostly shaded,2016.0,3.7,278.6,0.1,626849.1306013901,3697936.793280771
+NEON.PLA.D11.CLBJ.01937,CLBJ_049,41.0,Quercus stellata,post oak,oak,single bole tree,Live,4.2,4.2,3.5,Mostly shaded,2016.0,5.0,318.2,0.1,626839.1033376488,3697949.7223799983
+NEON.PLA.D11.CLBJ.01897,CLBJ_047,31.0,Quercus stellata,post oak,oak,small tree,"Live, physically damaged",2.0,1.9,1.5,,2016.0,8.4,88.2,0.1,629960.9388551071,3694632.1848503766
+NEON.PLA.D11.CLBJ.01881,CLBJ_047,41.0,Quercus stellata,post oak,oak,small tree,"Live, physically damaged",3.3,3.5,3.0,,2016.0,4.5,310.4,0.1,629958.710077616,3694644.795539555
+NEON.PLA.D11.CLBJ.01889,CLBJ_047,31.0,Quercus stellata,post oak,oak,small tree,"Live, physically damaged",3.4,3.5,3.2,,2016.0,6.7,32.4,0.1,629956.1330395263,3694637.577997101
+NEON.PLA.D11.CLBJ.01899,CLBJ_047,31.0,Quercus fusiformis,Quercus fusiformis,oak,small tree,"Live, physically damaged",3.2,3.4,2.5,,2016.0,9.4,46.9,0.1,629959.4065254002,3694638.3437734726
+NEON.PLA.D11.CLBJ.01887,CLBJ_047,41.0,Quercus stellata,post oak,oak,small tree,"Live, physically damaged",2.7,2.5,2.0,,2016.0,6.8,123.4,0.1,629967.8139654702,3694638.1357309674
+NEON.PLA.D11.CLBJ.01883,CLBJ_047,41.0,Quercus marilandica,blackjack oak,oak,small tree,"Live, physically damaged",3.3,3.7,3.2,,2016.0,11.4,47.7,0.1,629970.5687944827,3694649.551342654
+NEON.PLA.D11.CLBJ.01720,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.4,5.6,2.8,Mostly shaded,2021.0,4.5,170.2,0.1,628343.2219427462,3694368.7006644565
+NEON.PLA.D11.CLBJ.01882,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.6,5.0,4.9,Partially shaded,2021.0,4.0,77.2,0.1,628346.3565974173,3694374.0211939905
+NEON.PLA.D11.CLBJ.01772,CLBJ_052,33.0,Quercus stellata,post oak,oak,single bole tree,Live,9.2,6.1,4.6,Partially shaded,2016.0,10.0,284.4,0.1,628373.7231683887,3696435.490898872
+NEON.PLA.D11.CLBJ.01875,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.3,6.0,4.5,Mostly shaded,2021.0,4.3,98.1,0.1,628346.7131017282,3694372.5291247023
+NEON.PLA.D11.CLBJ.02018,CLBJ_052,51.0,Quercus stellata,post oak,oak,single bole tree,Live,7.8,8.3,8.0,Partially shaded,2016.0,5.1,253.0,0.1,628378.2218457446,3696451.1899043056
+NEON.PLA.D11.CLBJ.01764,CLBJ_052,33.0,Quercus stellata,post oak,oak,single bole tree,Live,10.7,9.7,9.2,Partially shaded,2016.0,22.2,339.5,0.1,628375.634396136,3696453.7981226016
+NEON.PLA.D11.CLBJ.01768,CLBJ_052,33.0,Quercus sp.,Quercus sp.,oak,single bole tree,Live,4.2,6.0,5.9,Mostly shaded,2016.0,8.2,293.6,0.1,628375.8948256175,3696436.286862067
+NEON.PLA.D11.CLBJ.01769,CLBJ_052,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.7,6.0,4.8,Mostly shaded,2016.0,9.2,290.1,0.1,628374.7693328807,3696436.16566919
+NEON.PLA.D11.CLBJ.01781,CLBJ_052,31.0,Quercus stellata,post oak,oak,single bole tree,Live,6.7,4.0,3.0,Mostly shaded,2016.0,2.9,22.1,0.1,628364.1310503632,3696435.1949330294
+NEON.PLA.D11.CLBJ.01862,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.3,3.7,3.4,Partially shaded,2021.0,8.5,339.2,0.1,628339.4375908196,3694381.081018249
+NEON.PLA.D11.CLBJ.01739,CLBJ_052,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.2,10.9,6.6,Full sun,2016.0,7.5,306.8,0.1,628367.4385147179,3696447.3196769888
+NEON.PLA.D11.CLBJ.01780,CLBJ_052,31.0,Quercus stellata,post oak,oak,single bole tree,Live,6.6,5.4,4.7,Partially shaded,2016.0,3.7,3.8,0.1,628363.2852134315,3696436.1998654325
+NEON.PLA.D11.CLBJ.01771,CLBJ_052,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.7,8.4,5.0,Partially shaded,2016.0,8.8,280.6,0.1,628374.7591689274,3696434.6227718857
+NEON.PLA.D11.CLBJ.01747,CLBJ_052,33.0,Quercus stellata,post oak,oak,single bole tree,Live,4.8,5.3,4.5,Mostly shaded,2016.0,9.1,351.0,0.1,628381.9854463681,3696441.9919638997
+NEON.PLA.D11.CLBJ.01714,CLBJ_052,41.0,Quercus stellata,post oak,oak,single bole tree,Live,3.5,2.9,2.9,Full shade,2016.0,7.8,348.6,0.1,628371.902272745,3696450.473115162
+NEON.PLA.D11.CLBJ.01852,CLBJ_033,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.0,5.0,4.9,Partially shaded,2021.0,9.8,345.6,0.1,628340.0188391058,3694382.6271149786
+NEON.PLA.D11.CLBJ.01854,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,multi-bole tree,Live,7.8,5.8,4.5,Partially shaded,2021.0,7.8,342.2,0.1,628340.0715766213,3694380.561609263
+NEON.PLA.D11.CLBJ.01877,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.2,5.2,2.5,Mostly shaded,2021.0,5.5,170.2,0.1,628343.3921522454,3694367.7152565583
+NEON.PLA.D11.CLBJ.01717,CLBJ_052,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.0,10.4,7.1,Partially shaded,2016.0,3.0,356.8,0.1,628373.276535485,3696445.8223222927
+NEON.PLA.D11.CLBJ.02111,CLBJ_052,51.0,Quercus stellata,post oak,oak,single bole tree,Live,3.0,5.5,3.0,Full shade,2016.0,4.8,263.1,0.1,628378.3337647588,3696452.1043431736
+NEON.PLA.D11.CLBJ.01892,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.9,4.4,4.4,Partially shaded,2021.0,0.4,34.4,0.1,628342.6819868013,3694373.465045399
+NEON.PLA.D11.CLBJ.01719,CLBJ_052,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.6,5.2,3.9,Partially shaded,2016.0,5.0,351.4,0.1,628372.6963232828,3696447.7707819054
+NEON.PLA.D11.CLBJ.01891,CLBJ_033,51.0,Quercus marilandica,blackjack oak,oak,multi-bole tree,Live,6.9,7.2,6.2,Partially shaded,2021.0,1.5,249.0,0.1,628351.5576293602,3694382.419448076
+NEON.PLA.D11.CLBJ.02011,CLBJ_033,49.0,Quercus stellata,post oak,oak,single bole tree,Live,7.6,4.5,2.8,Partially shaded,2021.0,2.2,96.7,0.1,628334.860975429,3694383.0563243786
+NEON.PLA.D11.CLBJ.01863,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.3,5.8,4.1,Partially shaded,2021.0,5.3,330.0,0.1,628339.806,3694377.72493464
+NEON.PLA.D11.CLBJ.01776,CLBJ_052,41.0,Quercus stellata,post oak,oak,multi-bole tree,Live,8.9,5.1,5.0,Partially shaded,2016.0,7.0,216.7,0.1,628369.2606239712,3696437.21457049
+NEON.PLA.D11.CLBJ.01715,CLBJ_052,41.0,Quercus stellata,post oak,oak,single bole tree,Live,3.9,6.2,5.0,Full shade,2016.0,8.3,338.7,0.1,628370.4290147871,3696450.560037189
+NEON.PLA.D11.CLBJ.01744,CLBJ_052,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.9,7.6,7.3,Partially shaded,2016.0,6.6,295.8,0.1,628367.5018961087,3696445.6995252557
+NEON.PLA.D11.CLBJ.01851,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.2,5.0,4.1,Mostly shaded,2021.0,1.6,237.8,0.1,628341.1020909342,3694372.282397958
+NEON.PLA.D11.CLBJ.01745,CLBJ_052,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.3,6.5,4.6,Mostly shaded,2016.0,8.7,285.4,0.1,628365.0563699831,3696445.137338222
+NEON.PLA.D11.CLBJ.01735,CLBJ_033,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.7,5.0,4.5,Partially shaded,2021.0,11.0,236.3,0.1,628343.8065046566,3694376.853711298
+NEON.PLA.D11.CLBJ.01754,CLBJ_052,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.5,9.0,8.5,Partially shaded,2016.0,2.3,120.3,0.1,628375.4298097664,3696441.666586465
+NEON.PLA.D11.CLBJ.02112,CLBJ_052,51.0,Quercus stellata,post oak,oak,single bole tree,Live,5.8,4.9,2.5,Mostly shaded,2016.0,5.2,203.4,0.1,628381.0338309688,3696447.9086759463
+NEON.PLA.D11.CLBJ.01879,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.8,4.0,3.3,Mostly shaded,2021.0,7.0,272.5,0.1,628335.462662449,3694373.4403357115
+NEON.PLA.D11.CLBJ.01876,CLBJ_033,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.2,7.3,5.7,Partially shaded,2021.0,7.6,215.2,0.1,628348.5771143971,3694376.7466987725
+NEON.PLA.D11.CLBJ.01861,CLBJ_033,31.0,Quercus marilandica,blackjack oak,oak,single bole tree,"Live, physically damaged",8.3,6.9,6.6,Partially shaded,2021.0,3.3,4.8,0.1,628332.8831368829,3694366.2814264353
+NEON.PLA.D11.CLBJ.01703,CLBJ_052,41.0,Sideroxylon lanuginosum,Sideroxylon lanuginosum,other broadleaf,single bole tree,Live,5.5,4.2,3.6,Full shade,2016.0,4.1,80.6,0.1,628377.4889458626,3696443.496636445
+NEON.PLA.D11.CLBJ.01860,CLBJ_033,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.6,4.8,3.7,Partially shaded,2021.0,7.0,331.5,0.1,628339.1158886782,3694379.2867197883
+NEON.PLA.D11.CLBJ.01706,CLBJ_052,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.1,7.4,4.8,Full sun,2016.0,4.0,71.1,0.1,628377.2283414353,3696444.122669673
+NEON.PLA.D11.CLBJ.02345,CLBJ_040,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,5.9,4.4,4.1,Partially shaded,2021.0,2.6,227.4,0.1,625890.4421475736,3694111.177122479
+NEON.PLA.D11.CLBJ.02294,CLBJ_040,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.0,5.0,3.7,Partially shaded,2021.0,3.2,175.0,0.1,625872.2958983767,3694109.480176966
+NEON.PLA.D11.CLBJ.02290,CLBJ_040,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.8,5.2,4.2,Partially shaded,2021.0,5.9,179.5,0.1,625882.1784865594,3694096.8352246536
+NEON.PLA.D11.CLBJ.02343,CLBJ_040,51.0,Quercus stellata,post oak,oak,single bole tree,Live,5.5,3.9,3.6,Partially shaded,2021.0,3.1,198.3,0.1,625891.3826233866,3694109.993781019
+NEON.PLA.D11.CLBJ.02293,CLBJ_040,31.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",7.1,6.2,2.5,Partially shaded,2021.0,7.6,3.9,0.11,625872.912916209,3694100.2884005187
+NEON.PLA.D11.CLBJ.02287,CLBJ_040,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.5,10.6,10.4,Full sun,2021.0,8.1,207.4,0.1,625878.3993817433,3694095.5436953804
+NEON.PLA.D11.CLBJ.02297,CLBJ_040,49.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.5,4.7,4.2,Partially shaded,2021.0,4.0,170.0,0.1,625872.7115927107,3694108.728768988
+NEON.PLA.D11.CLBJ.02277,CLBJ_040,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,multi-bole tree,"Live, other damage",9.8,4.8,4.8,Partially shaded,2021.0,9.4,176.5,0.1,625882.7008562715,3694093.352532895
+NEON.PLA.D11.CLBJ.01510,CLBJ_040,51.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,8.3,4.6,4.1,Partially shaded,2021.0,5.3,218.0,0.1,625889.0929941809,3694108.760543006
+NEON.PLA.D11.CLBJ.02288,CLBJ_040,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, other damage",7.5,8.0,6.3,Mostly shaded,2021.0,7.3,204.4,0.1,625879.1113376622,3694096.087009276
+NEON.PLA.D11.CLBJ.01504,CLBJ_040,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.3,5.5,4.2,Partially shaded,2021.0,6.4,296.6,0.1,625876.4044128841,3694105.600658162
+NEON.PLA.D11.CLBJ.02267,CLBJ_040,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,"Live, physically damaged",8.6,7.7,6.5,Partially shaded,2021.0,8.3,95.5,0.1,625890.3887884464,3694101.939480254
+NEON.PLA.D11.CLBJ.02435,CLBJ_051,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.0,9.0,6.3,Mostly shaded,2016.0,4.7,67.4,0.09,630746.4960880204,3693146.9511880167
+NEON.PLA.D11.CLBJ.02442,CLBJ_051,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.7,7.1,6.1,Partially shaded,2016.0,0.6,305.5,0.09,630741.668530689,3693145.4934217734
+NEON.PLA.D11.CLBJ.02432,CLBJ_051,33.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.3,9.7,6.6,Partially shaded,2016.0,9.2,347.3,0.09,630750.08041492,3693143.8419178044
+NEON.PLA.D11.CLBJ.02428,CLBJ_051,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.3,8.0,7.0,Mostly shaded,2016.0,5.1,151.8,0.09,630744.5670089008,3693140.6503523947
+NEON.PLA.D11.CLBJ.02434,CLBJ_051,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,5.7,4.7,4.0,Full shade,2016.0,4.6,82.5,0.09,630746.7176463624,3693145.7454204843
+NEON.PLA.D11.CLBJ.02439,CLBJ_051,41.0,Quercus fusiformis,Quercus fusiformis,oak,multi-bole tree,Live,7.5,5.9,5.1,Partially shaded,2016.0,2.3,11.0,0.09,630742.5958606894,3693147.402742522
+NEON.PLA.D11.CLBJ.02443,CLBJ_051,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.2,8.0,7.3,Partially shaded,2016.0,0.8,175.9,0.09,630742.2141979554,3693144.3470473737
+NEON.PLA.D11.CLBJ.02447,CLBJ_051,31.0,Quercus shumardii,Quercus shumardii,oak,single bole tree,Live,5.7,8.0,5.9,Mostly shaded,2016.0,5.8,7.3,0.12,630733.03897473,3693140.820987767
+NEON.PLA.D11.CLBJ.02449,CLBJ_051,31.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,9.5,5.6,5.1,Mostly shaded,2016.0,4.7,78.0,0.12,630736.8992937235,3693136.0451849466
+NEON.PLA.D11.CLBJ.02430,CLBJ_051,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.8,3.5,3.3,Mostly shaded,2016.0,3.1,109.3,0.09,630745.0827829499,3693144.1204053825
+NEON.PLA.D11.CLBJ.02436,CLBJ_051,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.5,5.9,4.9,Partially shaded,2016.0,5.3,47.3,0.09,630746.0520473543,3693148.73924625
+NEON.PLA.D11.CLBJ.02433,CLBJ_051,41.0,Quercus fusiformis,Quercus fusiformis,oak,single bole tree,Live,7.8,4.4,3.7,Mostly shaded,2016.0,5.0,79.0,0.09,630747.0651359173,3693146.0990449768
+NEON.PLA.D11.CLBJ.02441,CLBJ_051,31.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,11.4,7.3,5.1,Partially shaded,2016.0,6.6,73.0,0.12,630738.6136113894,3693136.997653251
+NEON.PLA.D11.CLBJ.02426,CLBJ_051,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.3,5.3,4.7,Mostly shaded,2016.0,3.4,333.6,0.09,630750.5912403908,3693137.912419985
+NEON.PLA.D11.CLBJ.02451,CLBJ_051,31.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,11.9,10.9,8.3,Partially shaded,2016.0,3.5,63.6,0.12,630735.4369911609,3693136.624223127
+NEON.PLA.D11.CLBJ.02452,CLBJ_051,31.0,Quercus marilandica,blackjack oak,oak,multi-bole tree,Live,12.6,13.7,12.4,Partially shaded,2016.0,2.1,13.8,0.12,630732.8029202609,3693137.107381988
+NEON.PLA.D11.CLBJ.02431,CLBJ_051,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,10.7,10.0,9.4,Full sun,2016.0,5.0,112.9,0.09,630746.7629270279,3693143.1993802493
+NEON.PLA.D11.CLBJ.02448,CLBJ_051,31.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,10.3,7.6,6.7,Mostly shaded,2016.0,5.0,86.4,0.12,630737.2921336421,3693135.3819525978
+NEON.PLA.D11.CLBJ.02429,CLBJ_051,41.0,Quercus stellata,post oak,oak,single bole tree,Live,7.4,7.0,4.8,Partially shaded,2016.0,5.4,131.5,0.09,630746.2013608923,3693141.56685174
+NEON.PLA.D11.CLBJ.02446,CLBJ_051,31.0,Quercus stellata,post oak,oak,single bole tree,Live,5.6,3.9,2.5,Mostly shaded,2016.0,9.1,5.1,0.12,630733.1109381015,3693144.131973695
+NEON.PLA.D11.CLBJ.01840,CLBJ_042,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.7,5.4,5.0,Partially shaded,2021.0,5.1,144.9,0.1,630444.6925267854,3693350.342436441
+NEON.PLA.D11.CLBJ.01841,CLBJ_042,49.0,Quercus marilandica,blackjack oak,oak,multi-bole tree,"Live, physically damaged",9.1,5.0,4.7,Mostly shaded,2021.0,8.7,177.5,0.17,630433.00348867,3693355.631280472
+NEON.PLA.D11.CLBJ.01838,CLBJ_042,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.5,5.3,4.2,Partially shaded,2021.0,5.1,98.6,0.1,630446.8026575433,3693353.7523697484
+NEON.PLA.D11.CLBJ.01829,CLBJ_042,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.6,5.8,3.7,Mostly shaded,2021.0,6.4,103.6,0.17,630438.8445504036,3693362.818090476
+NEON.PLA.D11.CLBJ.01834,CLBJ_042,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.5,7.5,6.6,Partially shaded,2021.0,5.3,52.2,0.1,630445.9478215656,3693357.7634073845
+NEON.PLA.D11.CLBJ.01808,CLBJ_042,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,5.7,6.7,4.5,Mostly shaded,2021.0,5.6,126.6,0.1,630446.2557778611,3693351.1761407005
+NEON.PLA.D11.CLBJ.01827,CLBJ_042,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.4,10.6,9.5,Mostly shaded,2021.0,4.4,123.0,0.17,630436.314150499,3693361.9265882457
+NEON.PLA.D11.CLBJ.01836,CLBJ_042,51.0,Quercus stellata,post oak,oak,single bole tree,Live,8.4,6.1,3.5,Partially shaded,2021.0,11.8,193.8,0.1,630448.8003052005,3693353.2576154973
+NEON.PLA.D11.CLBJ.01826,CLBJ_042,51.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",7.1,9.5,6.3,Full shade,2021.0,0.7,207.1,0.1,630451.2961185649,3693364.093851037
+NEON.PLA.D11.CLBJ.01837,CLBJ_042,51.0,Quercus stellata,post oak,oak,single bole tree,Live,8.2,4.2,2.3,Mostly shaded,2021.0,11.5,198.4,0.1,630447.9850360751,3693353.8049258664
+NEON.PLA.D11.CLBJ.01833,CLBJ_042,51.0,Quercus marilandica,blackjack oak,oak,multi-bole tree,Live,10.8,8.3,8.0,Mostly shaded,2021.0,9.0,235.9,0.1,630444.1624569884,3693359.6712490493
+NEON.PLA.D11.CLBJ.01830,CLBJ_042,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.7,6.7,6.0,Partially shaded,2021.0,2.6,18.1,0.1,630442.567758717,3693356.9863409023
+NEON.PLA.D11.CLBJ.01839,CLBJ_042,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.0,5.0,4.0,Partially shaded,2021.0,3.9,102.0,0.1,630445.5747756428,3693353.704144406
+NEON.PLA.D11.CLBJ.02012,CLBJ_028,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.7,,,,2020.0,5.6,221.9,0.1,632938.1251376894,3696750.6428553415
+NEON.PLA.D11.CLBJ.02105,CLBJ_028,31.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,7.1,,,,2020.0,5.0,44.9,0.1,632923.1613578533,3696736.5866991887
+NEON.PLA.D11.CLBJ.02884,CLBJ_015,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.9,9.5,7.1,Full sun,2025.0,0.9,46.2,0.11,632862.8085842052,3696284.7639288562
+NEON.PLA.D11.CLBJ.01200,CLBJ_007,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,multi-bole tree,"Live, physically damaged",5.8,7.1,6.7,Partially shaded,2025.0,8.0,182.5,0.1,632881.5510449011,3696416.5256142276
+NEON.PLA.D11.CLBJ.01476,CLBJ_007,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,11.5,12.1,8.8,Partially shaded,2025.0,7.2,247.4,0.1,632875.2528864368,3696421.751073677
+NEON.PLA.D11.CLBJ.01482,CLBJ_007,51.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,10.2,5.9,4.8,Partially shaded,2025.0,5.4,248.9,0.1,632876.862050912,3696422.5740172365
+NEON.PLA.D11.CLBJ.01479,CLBJ_007,51.0,Quercus stellata,post oak,oak,single bole tree,Live,8.3,7.6,6.9,Partially shaded,2025.0,1.4,191.9,0.1,632881.6113141405,3696423.148087421
+NEON.PLA.D11.CLBJ.00636,CLBJ_021,33.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",9.2,5.0,4.1,Partially shaded,2025.0,3.5,295.6,0.1,633000.3535861576,3696406.4723001206
+NEON.PLA.D11.CLBJ.00632,CLBJ_021,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.5,4.6,3.2,Full sun,2025.0,9.0,283.6,0.1,632994.7623509947,3696407.076279018
+NEON.PLA.D11.CLBJ.00631,CLBJ_021,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.4,4.1,3.1,Partially shaded,2025.0,4.3,124.1,0.1,632996.7256594389,3696412.2882523234
+NEON.PLA.D11.CLBJ.00635,CLBJ_021,33.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",8.8,7.1,7.1,Partially shaded,2025.0,5.4,320.7,0.1,633000.0897432878,3696409.1387371323
+NEON.PLA.D11.CLBJ.02502,CLBJ_026,31.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,Live,6.0,,,,2019.0,8.5,65.5,0.1,633018.6126708025,3696918.8578925626
+NEON.PLA.D11.CLBJ.00837,CLBJ_012,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.9,7.4,5.5,Partially shaded,2025.0,8.9,276.5,0.12,633054.0492104845,3696824.7995086024
+NEON.PLA.D11.CLBJ.02784,CLBJ_026,51.0,Quercus stellata,post oak,oak,single bole tree,Live,8.8,,,,2019.0,3.7,239.4,0.1,633028.2482545001,3696934.287546762
+NEON.PLA.D11.CLBJ.02789,CLBJ_026,49.0,Quercus stellata,post oak,oak,single bole tree,Live,4.3,,,,2019.0,11.5,145.1,0.1,633018.0846775447,3696926.7702534273
+NEON.PLA.D11.CLBJ.00582,CLBJ_017,49.0,Quercus stellata,post oak,oak,single bole tree,Live,10.3,,,,2019.0,9.3,105.6,0.1,632630.8224118712,3697052.316045668
+NEON.PLA.D11.CLBJ.00583,CLBJ_017,49.0,Quercus stellata,post oak,oak,single bole tree,Live,6.8,,,,2019.0,9.0,102.9,0.1,632630.6378507477,3697052.8077489557
+NEON.PLA.D11.CLBJ.00584,CLBJ_017,49.0,Quercus stellata,post oak,oak,multi-bole tree,Live,8.7,,,,2019.0,6.7,114.9,0.1,632627.9421948957,3697051.99606005
+NEON.PLA.D11.CLBJ.02818,CLBJ_003,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.3,7.6,6.7,Partially shaded,2025.0,4.6,93.3,0.1,632717.2443723565,3696994.2672054763
+NEON.PLA.D11.CLBJ.02993,CLBJ_002,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.3,6.5,5.6,Mostly shaded,2025.0,7.3,180.8,0.1,632882.2970760835,3696988.706711575
+NEON.PLA.D11.CLBJ.02721,CLBJ_016,49.0,Prunus mexicana,Prunus mexicana,other broadleaf,single bole tree,Live,7.0,6.1,6.0,Partially shaded,2025.0,10.0,151.4,0.1,632927.4019185794,3697076.1571702454
+NEON.PLA.D11.CLBJ.00440,CLBJ_010,33.0,Quercus marilandica,blackjack oak,oak,single bole tree,"Live, physically damaged",7.1,7.4,7.4,Full sun,2024.0,13.0,352.3,0.1,633359.6911795895,3696236.9037815966
+NEON.PLA.D11.CLBJ.02687,CLBJ_021,31.0,Prunus mexicana,Prunus mexicana,other broadleaf,single bole tree,"Live, physically damaged",5.4,5.4,4.1,Partially shaded,2025.0,8.7,22.3,0.1,632986.7682685879,3696412.8413245496
+NEON.PLA.D11.CLBJ.00700,CLBJ_015,41.0,Prunus mexicana,Prunus mexicana,other broadleaf,multi-bole tree,"Live, physically damaged",4.5,4.6,4.2,Mostly shaded,2025.0,4.5,48.7,0.1,632875.1916886007,3696296.937007506
+NEON.PLA.D11.CLBJ.01490,CLBJ_007,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,9.8,6.7,4.3,Partially shaded,2025.0,0.9,109.9,0.1,632872.8132593143,3696414.174658405
+NEON.PLA.D11.CLBJ.02853,CLBJ_007,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",6.2,6.3,5.9,Partially shaded,2025.0,3.6,353.9,0.1,632881.5064493432,3696407.9486165987
+NEON.PLA.D11.CLBJ.02948,CLBJ_016,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",3.9,5.7,2.5,Mostly shaded,2025.0,2.5,281.7,0.1,632940.3829429734,3697065.3319682386
+NEON.PLA.D11.CLBJ.02682,CLBJ_016,41.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,"Live, physically damaged",7.4,5.8,4.9,Partially shaded,2025.0,4.7,227.4,0.1,632929.0863436905,3697071.7096829424
+NEON.PLA.D11.CLBJ.02705,CLBJ_027,33.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,6.8,,,,2019.0,5.3,352.0,0.1,633061.2663825649,3696559.651420764
+NEON.PLA.D11.CLBJ.01777,CLBJ_052,41.0,Sideroxylon lanuginosum,Sideroxylon lanuginosum,other broadleaf,single bole tree,"Live, physically damaged",6.5,4.3,2.4,Partially shaded,2016.0,5.2,234.8,0.1,628369.1948465287,3696439.829551956
+NEON.PLA.D11.CLBJ.01511,CLBJ_040,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.0,12.4,10.0,Full sun,2021.0,4.8,41.1,0.1,625885.2824011798,3694106.352104283
+NEON.PLA.D11.CLBJ.02282,CLBJ_040,31.0,Prunus mexicana,Prunus mexicana,other broadleaf,single bole tree,Live,4.5,4.5,4.3,Mostly shaded,2021.0,3.9,26.7,0.11,625874.1483440945,3694096.190148414
+NEON.PLA.D11.CLBJ.00216,CLBJ_015,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.2,5.5,5.2,Partially shaded,2025.0,3.1,149.0,0.1,632873.4076180322,3696291.309781368
+NEON.PLA.D11.CLBJ.00389,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",9.7,5.2,4.4,Mostly shaded,2025.0,7.2,330.6,0.1,632809.302492974,3696211.1657394404
+NEON.PLA.D11.CLBJ.00388,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",12.2,6.7,4.5,Full sun,2025.0,8.1,227.1,0.1,632806.9034025199,3696199.3791609616
+NEON.PLA.D11.CLBJ.02937,CLBJ_015,49.0,Quercus marilandica,blackjack oak,oak,multi-bole tree,"Live, physically damaged",5.5,3.9,3.9,Partially shaded,2025.0,13.0,110.2,0.1,632874.0204092958,3696299.9951234134
+NEON.PLA.D11.CLBJ.00387,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",9.7,3.4,2.6,Mostly shaded,2025.0,9.4,330.8,0.1,632808.2511192041,3696213.0984675265
+NEON.PLA.D11.CLBJ.00390,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",11.6,5.9,5.4,Partially shaded,2025.0,6.5,320.0,0.1,632808.6588805371,3696209.8722888804
+NEON.PLA.D11.CLBJ.00385,CLBJ_011,49.0,Quercus stellata,post oak,oak,multi-bole tree,"Live, physically damaged",5.6,4.6,3.3,Full shade,2025.0,4.9,174.1,0.11,632803.2116834302,3696209.8969561965
+NEON.PLA.D11.CLBJ.00392,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.6,6.0,4.6,Partially shaded,2025.0,4.7,285.5,0.1,632808.30793687,3696206.149020368
+NEON.PLA.D11.CLBJ.00386,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.6,5.2,4.2,Partially shaded,2025.0,8.1,142.8,0.1,632817.7342528304,3696198.4411076643
+NEON.PLA.D11.CLBJ.00495,CLBJ_024,51.0,Sideroxylon lanuginosum,Sideroxylon lanuginosum,other broadleaf,small tree,Live,2.4,2.5,2.2,Full sun,2025.0,11.0,219.8,0.1,633084.2847933057,3696146.8828812405
+NEON.PLA.D11.CLBJ.00439,CLBJ_010,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,multi-bole tree,"Live, physically damaged",9.1,10.3,9.9,Full sun,2024.0,9.5,100.8,0.1,633350.481728882,3696241.812877511
+NEON.PLA.D11.CLBJ.00947,CLBJ_008,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.3,8.9,5.0,Partially shaded,2025.0,8.0,62.4,0.1,632998.5596286338,3696540.2303682812
+NEON.PLA.D11.CLBJ.01065,CLBJ_027,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.4,,,,2019.0,8.0,357.4,0.1,633051.380096095,3696572.2857645587
+NEON.PLA.D11.CLBJ.01078,CLBJ_027,41.0,Quercus stellata,post oak,oak,multi-bole tree,Live,10.8,,,,2019.0,7.6,112.0,0.1,633058.7895972948,3696561.44698989
+NEON.PLA.D11.CLBJ.01090,CLBJ_027,33.0,Quercus stellata,post oak,oak,single bole tree,Live,10.6,,,,2019.0,4.1,275.0,0.1,633057.9196017378,3696554.7603385453
+NEON.PLA.D11.CLBJ.01097,CLBJ_027,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,8.8,,,,2019.0,8.4,275.5,0.1,633043.3816719337,3696565.0991043216
+NEON.PLA.D11.CLBJ.01091,CLBJ_027,41.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,Live,7.3,,,,2019.0,4.1,307.3,0.1,633048.4815587285,3696566.7785524414
+NEON.PLA.D11.CLBJ.02908,CLBJ_008,33.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,9.5,7.3,5.0,Partially shaded,2025.0,13.1,326.2,0.1,632993.9105274369,3696537.1718965475
+NEON.PLA.D11.CLBJ.01092,CLBJ_027,41.0,Quercus stellata,post oak,oak,single bole tree,Live,11.0,,,,2019.0,3.0,294.6,0.1,633049.0152916729,3696565.542842377
+NEON.PLA.D11.CLBJ.00975,CLBJ_008,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",12.8,8.3,6.4,Partially shaded,2025.0,6.3,301.0,0.1,632995.7978460055,3696529.530739872
+NEON.PLA.D11.CLBJ.01087,CLBJ_027,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.3,,,,2019.0,7.0,8.4,0.1,633052.7655811999,3696571.218906331
+NEON.PLA.D11.CLBJ.01067,CLBJ_027,41.0,Quercus stellata,post oak,oak,single bole tree,Live,7.6,,,,2019.0,9.3,2.5,0.1,633052.1486603025,3696573.585148461
+NEON.PLA.D11.CLBJ.00946,CLBJ_008,41.0,Prunus mexicana,Prunus mexicana,other broadleaf,single bole tree,"Live, physically damaged",5.5,3.0,1.9,Mostly shaded,2025.0,9.4,74.1,0.1,633000.5103683097,3696539.099216656
+NEON.PLA.D11.CLBJ.00973,CLBJ_008,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",14.9,10.9,9.6,Full sun,2025.0,3.5,358.7,0.1,633001.1185943325,3696529.7850991325
+NEON.PLA.D11.CLBJ.00967,CLBJ_008,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.9,6.1,5.6,Full shade,2025.0,8.0,275.5,0.1,632993.234830413,3696527.05276602
+NEON.PLA.D11.CLBJ.01083,CLBJ_027,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.8,,,,2019.0,6.1,54.8,0.1,633056.7275838798,3696567.8102371288
+NEON.PLA.D11.CLBJ.00912,CLBJ_027,33.0,Quercus stellata,post oak,oak,multi-bole tree,Live,10.1,,,,2019.0,5.7,322.4,0.1,633058.5261725658,3696558.919050967
+NEON.PLA.D11.CLBJ.01066,CLBJ_027,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.5,,,,2019.0,8.4,357.3,0.1,633051.347305814,3696572.68467495
+NEON.PLA.D11.CLBJ.01089,CLBJ_027,33.0,Quercus stellata,post oak,oak,multi-bole tree,Live,10.4,,,,2019.0,2.0,295.7,0.1,633060.2018459573,3696555.270318169
+NEON.PLA.D11.CLBJ.01098,CLBJ_027,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,multi-bole tree,Live,8.2,,,,2019.0,8.8,284.5,0.1,633043.2233007647,3696566.497344036
+NEON.PLA.D11.CLBJ.01082,CLBJ_027,41.0,Quercus stellata,post oak,oak,single bole tree,Live,10.7,,,,2019.0,7.0,65.9,0.1,633058.1328392406,3696567.152313223
+NEON.PLA.D11.CLBJ.01079,CLBJ_027,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,8.4,,,,2019.0,9.0,75.1,0.1,633060.4403847139,3696566.6081951386
+NEON.PLA.D11.CLBJ.01080,CLBJ_027,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.7,,,,2019.0,3.2,207.2,0.1,633060.4212866334,3696571.3868676056
+NEON.PLA.D11.CLBJ.02909,CLBJ_008,33.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,"Live, physically damaged",7.9,5.8,5.5,Full shade,2025.0,4.1,270.5,0.1,632997.0981561154,3696526.321778795
+NEON.PLA.D11.CLBJ.00976,CLBJ_008,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.0,1.1,0.8,Full sun,2025.0,10.9,317.0,0.1,632993.7642178753,3696534.2577553475
+NEON.PLA.D11.CLBJ.00970,CLBJ_008,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",5.3,6.5,3.2,Full shade,2025.0,10.0,339.3,0.1,632997.6632515622,3696535.640440308
+NEON.PLA.D11.CLBJ.01299,CLBJ_027,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,8.6,,,,2019.0,9.6,281.6,0.1,633042.3390776039,3696566.224348043
+NEON.PLA.D11.CLBJ.01162,CLBJ_014,33.0,Quercus stellata,post oak,oak,single bole tree,Live,13.0,13.8,11.7,Full sun,2025.0,8.2,306.9,0.1,632844.9195858004,3697189.358445848
+NEON.PLA.D11.CLBJ.00092,CLBJ_022,41.0,Quercus stellata,post oak,oak,single bole tree,Live,6.5,,,,2019.0,0.9,45.8,0.1,632752.7832195469,3697227.0554485926
+NEON.PLA.D11.CLBJ.02820,CLBJ_014,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.0,6.0,5.7,Full shade,2025.0,7.3,156.4,0.1,632844.3795479378,3697187.304552074
+NEON.PLA.D11.CLBJ.01134,CLBJ_014,31.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,"Live, physically damaged",8.4,5.3,5.0,Partially shaded,2025.0,3.5,20.0,0.1,632832.7600705016,3697186.9789241725
+NEON.PLA.D11.CLBJ.01175,CLBJ_014,33.0,Prunus mexicana,Prunus mexicana,other broadleaf,single bole tree,"Live, physically damaged",6.1,5.9,3.3,Full shade,2025.0,4.8,316.3,0.1,632848.1607644268,3697187.9052423006
+NEON.PLA.D11.CLBJ.02653,CLBJ_014,31.0,Quercus stellata,post oak,oak,single bole tree,Live,8.0,5.8,4.9,Partially shaded,2025.0,3.5,20.0,0.1,632832.7600705016,3697186.9789241725
+NEON.PLA.D11.CLBJ.00006,CLBJ_009,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.0,6.2,4.4,Mostly shaded,2025.0,4.5,271.7,0.1,632716.6959806295,3697135.738498098
+NEON.PLA.D11.CLBJ.00004,CLBJ_009,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,9.8,8.9,5.3,Mostly shaded,2025.0,7.6,247.4,0.1,632724.05560235,3697142.978355548
+NEON.PLA.D11.CLBJ.00167,CLBJ_009,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",5.1,,,,2019.0,5.8,226.7,0.1,632716.9729180057,3697131.627253553
+NEON.PLA.D11.CLBJ.00002,CLBJ_009,51.0,Quercus marilandica,blackjack oak,oak,single bole tree,"Live, physically damaged",9.1,7.7,7.2,Partially shaded,2025.0,5.7,211.3,0.1,632728.1107410623,3697141.0285846684
+NEON.PLA.D11.CLBJ.00842,CLBJ_012,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.2,7.0,5.2,Full shade,2025.0,1.2,340.7,0.12,633062.4953827288,3696824.924561142
+NEON.PLA.D11.CLBJ.00808,CLBJ_012,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,9.1,6.8,6.7,Partially shaded,2025.0,2.4,178.0,0.1,633042.3027587922,3696841.7224620148
+NEON.PLA.D11.CLBJ.02629,CLBJ_012,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.1,5.9,4.5,Mostly shaded,2025.0,4.4,196.4,0.1,633051.1216975899,3696829.723018512
+NEON.PLA.D11.CLBJ.00136,CLBJ_026,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,multi-bole tree,Live,7.0,,,,2019.0,6.6,203.0,0.1,633028.8541745519,3696930.095667967
+NEON.PLA.D11.CLBJ.02946,CLBJ_026,41.0,Quercus stellata,post oak,oak,single bole tree,Live,4.4,,,,2019.0,8.9,86.5,0.1,633030.258399706,3696926.604332002
+NEON.PLA.D11.CLBJ.00136A,CLBJ_026,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,multi-bole tree,Live,7.0,,,,2019.0,6.6,203.0,0.1,633028.8541745519,3696930.095667967
+NEON.PLA.D11.CLBJ.00900,CLBJ_005,41.0,Ulmus americana,Ulmus americana,other broadleaf,single bole tree,Live,12.4,16.9,14.6,Partially shaded,2024.0,5.2,53.3,0.1,632966.96523335,3696987.8356507644
+NEON.PLA.D11.CLBJ.00881,CLBJ_005,31.0,Ulmus americana,Ulmus americana,other broadleaf,single bole tree,"Live, physically damaged",5.2,8.2,6.8,Mostly shaded,2024.0,6.8,59.7,0.1,632958.6180897441,3696977.919787842
+NEON.PLA.D11.CLBJ.02612,CLBJ_005,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",6.2,5.6,3.5,Mostly shaded,2024.0,7.2,272.2,0.12,632965.9413070019,3696974.354392226
+NEON.PLA.D11.CLBJ.00546,CLBJ_005,41.0,Populus deltoides,Populus deltoides,other broadleaf,single bole tree,Live,18.8,13.8,10.7,Full sun,2024.0,1.3,146.8,0.1,632963.5078321905,3696983.640206393
+NEON.PLA.D11.CLBJ.00897,CLBJ_005,41.0,Quercus stellata,post oak,oak,single bole tree,Live,14.1,12.4,11.3,Partially shaded,2024.0,7.3,34.0,0.1,632966.8781081953,3696990.77997428
+NEON.PLA.D11.CLBJ.00890,CLBJ_005,49.0,Carya illinoinensis,Carya illinoinensis,other broadleaf,single bole tree,Live,5.1,6.8,5.6,Partially shaded,2024.0,9.9,162.5,0.1,632955.7869874152,3696984.8882021876
+NEON.PLA.D11.CLBJ.01352,CLBJ_028,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.6,,,,2020.0,2.9,325.5,0.1,632940.455421913,3696737.1789659467
+NEON.PLA.D11.CLBJ.01032,CLBJ_028,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,9.7,,,,2020.0,3.4,46.1,0.1,632934.4428737797,3696747.158566216
+NEON.PLA.D11.CLBJ.01349,CLBJ_028,33.0,Quercus stellata,post oak,oak,single bole tree,Live,8.1,,,,2020.0,2.7,305.8,0.1,632939.9081276887,3696736.3683857224
+NEON.PLA.D11.CLBJ.01033,CLBJ_028,41.0,Quercus stellata,post oak,oak,single bole tree,Live,9.3,,,,2020.0,2.6,11.8,0.1,632932.5246897348,3696747.3460552106
+NEON.PLA.D11.CLBJ.01030,CLBJ_028,51.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,Live,7.0,,,,2020.0,6.5,260.3,0.1,632935.4579274509,3696753.715819033
+NEON.PLA.D11.CLBJ.01036,CLBJ_028,49.0,Quercus stellata,post oak,oak,multi-bole tree,Live,9.9,,,,2020.0,4.9,155.2,0.1,632923.790315204,3696750.658890355
+NEON.PLA.D11.CLBJ.01028,CLBJ_028,51.0,Quercus stellata,post oak,oak,multi-bole tree,Live,7.0,,,,2020.0,1.8,200.6,0.1,632941.2316850328,3696753.126092836
+NEON.PLA.D11.CLBJ.01324,CLBJ_028,41.0,Quercus stellata,post oak,oak,single bole tree,Live,13.5,,,,2020.0,4.7,15.3,0.1,632933.2332033349,3696749.3344198666
+NEON.PLA.D11.CLBJ.03024,CLBJ_003,51.0,Quercus stellata,post oak,oak,single bole tree,Live,9.3,7.7,7.2,Partially shaded,2025.0,2.8,173.8,0.1,632731.1223981959,3696992.811377301
+NEON.PLA.D11.CLBJ.01064,CLBJ_003,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.1,11.4,8.7,Partially shaded,2025.0,2.4,35.1,0.1,632714.4830126049,3696976.5085593215
+NEON.PLA.D11.CLBJ.01262,CLBJ_003,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.5,5.3,3.7,Partially shaded,2025.0,2.4,221.7,0.1,632729.2234471488,3696993.8030683626
+NEON.PLA.D11.CLBJ.03029,CLBJ_004,31.0,Quercus stellata,post oak,oak,multi-bole tree,Live,5.4,6.9,5.4,Open grown,2025.0,6.6,85.0,0.1,633079.4868850075,3696194.836227902
+NEON.PLA.D11.CLBJ.03199,CLBJ_002,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.1,5.1,4.0,Mostly shaded,2025.0,2.3,153.5,0.1,632873.2542549701,3696983.9056509687
+NEON.PLA.D11.CLBJ.03028,CLBJ_003,41.0,Prunus mexicana,Prunus mexicana,other broadleaf,multi-bole tree,"Live, physically damaged",4.9,7.8,5.4,Mostly shaded,2025.0,3.7,86.1,0.1,632726.5594318317,3696985.0806565755
+NEON.PLA.D11.CLBJ.01446,CLBJ_002,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.5,6.6,6.2,Partially shaded,2025.0,2.8,351.9,0.1,632871.8334765505,3696988.7360662417
+NEON.PLA.D11.CLBJ.01438,CLBJ_002,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",5.2,3.8,2.9,Mostly shaded,2025.0,1.7,183.4,0.1,632882.2981791649,3696994.3089922927
+NEON.PLA.D11.CLBJ.01859,CLBJ_033,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.0,6.1,5.9,Partially shaded,2021.0,4.7,267.1,0.1,628337.7620190212,3694372.8972131815
+NEON.PLA.D11.CLBJ.03160,CLBJ_033,51.0,Quercus stellata,post oak,oak,single bole tree,Live,6.8,5.2,3.0,Partially shaded,2021.0,6.1,203.5,0.1,628350.5256306796,3694377.3629335463
+NEON.PLA.D11.CLBJ.03159,CLBJ_033,51.0,Quercus stellata,post oak,oak,multi-bole tree,Live,6.7,6.1,3.0,Partially shaded,2021.0,6.3,209.3,0.1,628349.874890554,3694377.4629635834
+NEON.PLA.D11.CLBJ.01893,CLBJ_033,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.2,5.0,4.4,Partially shaded,2021.0,3.0,69.5,0.1,628335.4170165677,3694364.0436221436
+NEON.PLA.D11.CLBJ.02378,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.4,2.5,1.2,Partially shaded,2021.0,2.4,70.0,0.1,628344.7112622899,3694373.9558483437
+NEON.PLA.D11.CLBJ.03158,CLBJ_033,41.0,Quercus stellata,post oak,oak,single bole tree,Live,5.3,4.2,3.4,Partially shaded,2021.0,7.4,135.0,0.1,628347.6885901808,3694367.902409819
+NEON.PLA.D11.CLBJ.02380,CLBJ_033,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,8.6,4.0,1.2,Partially shaded,2021.0,2.9,93.0,0.1,628345.3520256508,3694372.9832257265
+NEON.PLA.D11.CLBJ.01303,CLBJ_032,51.0,Carya illinoinensis,Carya illinoinensis,other broadleaf,small tree,"Live, physically damaged",2.3,1.8,1.4,Open grown,2021.0,4.5,234.7,0.1,630749.2673808446,3697203.21364069
+NEON.PLA.D11.CLBJ.03219,CLBJ_033,41.0,Quercus stellata,post oak,oak,single bole tree,Live,7.3,3.7,3.1,Partially shaded,2021.0,8.1,204.5,0.1,628339.0969847345,3694365.7643137057
+NEON.PLA.D11.CLBJ.03229,CLBJ_038,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,4.8,5.1,4.7,Mostly shaded,2021.0,8.9,91.4,0.1,630441.1383432591,3698102.3595536146
+NEON.PLA.D11.CLBJ.03228,CLBJ_038,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,4.2,4.2,4.1,Mostly shaded,2021.0,4.3,357.1,0.1,630442.3284503577,3698097.131493236
+NEON.PLA.D11.CLBJ.01534,CLBJ_038,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,4.7,5.6,4.2,Partially shaded,2021.0,1.3,229.5,0.1,630451.4664722447,3698102.0717175375
+NEON.PLA.D11.CLBJ.01562,CLBJ_038,41.0,Quercus stellata,post oak,oak,single bole tree,Live,8.0,7.9,7.7,Partially shaded,2021.0,7.1,225.2,0.1,630437.5080477706,3698087.8340971093
+NEON.PLA.D11.CLBJ.03052,CLBJ_038,49.0,Quercus stellata,post oak,oak,single bole tree,Live,7.4,3.1,2.4,Partially shaded,2021.0,10.6,157.7,0.1,630436.263235291,3698092.769776985
+NEON.PLA.D11.CLBJ.02269,CLBJ_027,31.0,Celtis laevigata,Celtis laevigata,other broadleaf,single bole tree,Live,7.0,,,,2019.0,7.5,3.1,0.1,633042.2495910975,3696561.1560250274
+NEON.PLA.D11.CLBJ.03066,CLBJ_040,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.2,3.4,3.4,Mostly shaded,2021.0,6.9,319.0,0.11,625887.7771927,3694097.794496103
+NEON.PLA.D11.CLBJ.02262,CLBJ_040,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,9.4,4.2,4.1,Mostly shaded,2021.0,10.1,121.6,0.1,625890.7294420348,3694097.4427423496
+NEON.PLA.D11.CLBJ.03065,CLBJ_040,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.5,2.6,1.4,Partially shaded,2021.0,7.0,358.3,0.11,625892.0963362914,3694099.583919021
+NEON.PLA.D11.CLBJ.03067,CLBJ_040,33.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,6.4,3.5,2.6,Mostly shaded,2021.0,5.6,291.5,0.11,625887.0936616194,3694094.6394068697
+NEON.PLA.D11.CLBJ.02279,CLBJ_040,33.0,Quercus stellata,post oak,oak,single bole tree,Live,7.3,3.5,3.3,Partially shaded,2021.0,12.0,293.2,0.11,625881.2743759289,3694097.314302915
+NEON.PLA.D11.CLBJ.02291,CLBJ_040,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.3,6.3,5.8,Partially shaded,2021.0,7.8,35.3,0.11,625876.9032894701,3694099.0718732025
+NEON.PLA.D11.CLBJ.03068,CLBJ_040,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.6,3.3,2.6,Mostly shaded,2021.0,7.5,158.7,0.1,625884.8513842286,3694095.747315793
+NEON.PLA.D11.CLBJ.02284,CLBJ_040,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,5.2,3.5,2.4,Partially shaded,2021.0,2.5,86.2,0.11,625874.8905036707,3694092.8716847505
+NEON.PLA.D11.CLBJ.01501,CLBJ_040,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.4,4.5,4.4,Partially shaded,2021.0,8.8,280.5,0.1,625873.4743568135,3694104.338672624
+NEON.PLA.D11.CLBJ.01506,CLBJ_040,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,5.3,3.9,2.9,Full shade,2021.0,4.5,353.3,0.1,625881.601981683,3694107.204267923
+NEON.PLA.D11.CLBJ.01509,CLBJ_040,51.0,Quercus stellata,post oak,oak,multi-bole tree,Live,5.1,3.7,3.0,Partially shaded,2021.0,4.8,265.0,0.1,625887.5742654492,3694112.518652435
+NEON.PLA.D11.CLBJ.01505,CLBJ_040,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,10.7,9.4,7.0,Partially shaded,2021.0,5.2,327.9,0.1,625879.3637273865,3694107.140033991
+NEON.PLA.D11.CLBJ.01220,CLBJ_002,33.0,Quercus stellata,post oak,oak,multi-bole tree,Live,9.2,9.2,6.0,Partially shaded,2025.0,1.8,278.8,0.1,632880.9691889135,3696976.285374505
+NEON.PLA.D11.CLBJ.01849,CLBJ_042,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.3,8.4,6.0,Partially shaded,2021.0,12.2,280.7,0.1,630439.5941238822,3693346.5381327076
+NEON.PLA.D11.CLBJ.01831,CLBJ_042,51.0,Quercus stellata,post oak,oak,single bole tree,Live,7.8,6.2,5.0,Full shade,2021.0,11.0,250.2,0.1,630441.2653115415,3693360.9908828773
+NEON.PLA.D11.CLBJ.01828,CLBJ_042,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",12.4,8.0,7.3,Partially shaded,2021.0,7.7,95.2,0.17,630440.2923098693,3693363.6251291325
+NEON.PLA.D11.CLBJ.01835,CLBJ_042,33.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,"Live, disease damaged",5.7,5.1,5.0,Partially shaded,2021.0,5.1,324.0,0.1,630448.5842952133,3693348.3989866716
+NEON.PLA.D11.CLBJ.01832,CLBJ_042,51.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.4,8.4,4.6,Mostly shaded,2021.0,9.4,251.1,0.1,630442.721797627,3693361.6721762693
+NEON.PLA.D11.CLBJ.01850,CLBJ_042,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",9.9,10.7,10.0,Partially shaded,2021.0,6.4,47.6,0.1,630437.0701141801,3693349.18953528
+NEON.PLA.D11.CLBJ.01842,CLBJ_042,31.0,Quercus stellata,post oak,oak,single bole tree,Live,8.7,6.3,3.3,Full shade,2021.0,8.6,26.9,0.1,630436.2349385001,3693352.5434587547
+NEON.PLA.D11.CLBJ.01810,CLBJ_042,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.4,4.7,4.0,Mostly shaded,2021.0,2.0,142.9,0.1,630442.9664159755,3693352.9198321425
+NEON.PLA.D11.CLBJ.00943,CLBJ_008,49.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,12.8,11.8,8.0,Full sun,2025.0,6.9,110.0,0.1,632988.1248790834,3696544.211061011
+NEON.PLA.D11.CLBJ.02438,CLBJ_051,41.0,Quercus fusiformis,Quercus fusiformis,oak,small tree,Live,4.1,2.7,2.6,,2016.0,4.1,0.8,0.09,630742.2142449394,3693149.2446003486
+NEON.PLA.D11.CLBJ.02145,CLBJ_043,31.0,Quercus stellata,post oak,oak,multi-bole tree,Live,8.2,8.5,5.8,Full sun,2022.0,7.7,41.1,0.1,630618.4627893926,3697610.7614381206
+NEON.PLA.D11.CLBJ.03186,CLBJ_043,31.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",6.0,5.2,3.4,Partially shaded,2022.0,1.9,55.0,0.1,630614.9573888842,3697606.048795229
+NEON.PLA.D11.CLBJ.02144,CLBJ_043,31.0,Quercus stellata,post oak,oak,single bole tree,Live,6.2,4.1,3.1,Full sun,2022.0,9.1,24.2,0.1,630617.1312996079,3697613.259293057
+NEON.PLA.D11.CLBJ.03291,CLBJ_043,31.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,5.1,4.1,3.9,Mostly shaded,2022.0,4.3,70.0,0.1,630617.4416782693,3697606.429686616
+NEON.PLA.D11.CLBJ.02142,CLBJ_043,31.0,Quercus stellata,post oak,oak,single bole tree,Live,9.4,7.3,5.5,Full sun,2022.0,10.4,29.1,0.1,630618.4588879563,3697614.0462311194
+NEON.PLA.D11.CLBJ.03310,CLBJ_043,41.0,Quercus stellata,post oak,oak,single bole tree,Live,4.7,3.2,3.0,Mostly shaded,2022.0,4.5,268.0,0.1,630618.8257412784,3697615.117952265
+NEON.PLA.D11.CLBJ.03307,CLBJ_043,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,5.2,4.3,3.5,Mostly shaded,2022.0,9.0,274.0,0.1,630624.1989235476,3697605.7078082636
+NEON.PLA.D11.CLBJ.03375,CLBJ_002,31.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,8.1,3.4,2.9,Mostly shaded,2025.0,7.9,91.0,0.1,632870.0637967918,3696975.807125989
+NEON.PLA.D11.CLBJ.02558,CLBJ_046,51.0,Quercus stellata,post oak,oak,single bole tree,Live,8.8,7.6,6.1,Full sun,2016.0,8.9,182.9,0.1,631740.8307228333,3696925.955397721
+NEON.PLA.D11.CLBJ.02314,CLBJ_019,31.0,Quercus stellata,post oak,oak,single bole tree,Live,4.4,4.0,2.5,Full sun,2024.0,1.6,0.2,0.1,633011.1135850423,3696076.953990252
+NEON.PLA.D11.CLBJ.02810,CLBJ_020,31.0,Diospyros virginiana,Diospyros virginiana,other broadleaf,small tree,"Live, physically damaged",2.2,0.9,0.6,Full sun,2024.0,7.9,5.1,0.1,633223.4002649452,3696171.315724417
+NEON.PLA.D11.CLBJ.02813,CLBJ_020,31.0,Diospyros virginiana,Diospyros virginiana,other broadleaf,small tree,Live,2.9,1.3,1.2,Full sun,2024.0,6.8,10.9,0.1,633223.9838490123,3696170.1243192465
+NEON.PLA.D11.CLBJ.03357,CLBJ_020,31.0,Diospyros virginiana,Diospyros virginiana,other broadleaf,small tree,"Live, physically damaged",2.9,1.2,1.1,Full sun,2024.0,7.4,13.9,0.1,633224.4756875143,3696170.630301964
+NEON.PLA.D11.CLBJ.00244,CLBJ_025,33.0,Quercus stellata,post oak,oak,multi-bole tree,Live,6.8,7.6,7.1,Open grown,2024.0,5.7,309.8,0.1,633027.5947839156,3696260.111625287
+NEON.PLA.D11.CLBJ.04037,CLBJ_005,31.0,Ulmus americana,Ulmus americana,other broadleaf,single bole tree,Live,9.9,5.9,5.1,Mostly shaded,2024.0,5.5,67.1,0.1,632957.8135197306,3696976.629181726
+NEON.PLA.D11.CLBJ.04023,CLBJ_005,49.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",7.9,8.4,8.3,Partially shaded,2024.0,3.2,90.7,0.1,632956.0097611829,3696994.2909055976
+NEON.PLA.D11.CLBJ.00877,CLBJ_005,41.0,Morus rubra,Morus rubra,other broadleaf,multi-bole tree,"Live, physically damaged",11.4,9.1,6.1,Mostly shaded,2024.0,2.2,181.0,0.1,632962.7576047059,3696982.5283350707
+NEON.PLA.D11.CLBJ.00895,CLBJ_005,41.0,Quercus stellata,post oak,oak,single bole tree,Live,14.8,16.1,15.5,Full sun,2024.0,6.5,99.6,0.1,632969.204974241,3696983.6440031463
+NEON.PLA.D11.CLBJ.00883,CLBJ_005,41.0,Morus rubra,Morus rubra,other broadleaf,single bole tree,"Live, physically damaged",9.2,16.1,15.5,Mostly shaded,2024.0,5.5,82.4,0.1,632968.2476854713,3696985.4554101466
+NEON.PLA.D11.CLBJ.04092,CLBJ_005,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.8,5.6,3.6,Mostly shaded,2024.0,8.1,182.7,0.1,632962.4144377492,3696976.636992013
+NEON.PLA.D11.CLBJ.00879,CLBJ_005,41.0,Morus rubra,Morus rubra,other broadleaf,single bole tree,Live,7.8,6.1,3.7,Mostly shaded,2024.0,2.9,183.9,0.1,632962.5987556571,3696981.8347155913
+NEON.PLA.D11.CLBJ.01483,CLBJ_007,41.0,Quercus stellata,post oak,oak,single bole tree,Live,7.5,4.5,2.6,Mostly shaded,2025.0,2.5,67.1,0.1,632874.2699635138,3696415.4538098755
+NEON.PLA.D11.CLBJ.01493,CLBJ_007,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.2,8.0,7.1,Partially shaded,2025.0,6.2,277.8,0.1,632875.7463633891,3696405.210436549
+NEON.PLA.D11.CLBJ.01449,CLBJ_007,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",8.0,5.2,4.4,Partially shaded,2025.0,7.0,346.0,0.1,632880.1955467308,3696411.1610700837
+NEON.PLA.D11.CLBJ.01495,CLBJ_007,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",7.7,7.4,6.0,Partially shaded,2025.0,4.9,350.3,0.1,632881.06340204,3696409.1989469985
+NEON.PLA.D11.CLBJ.01447,CLBJ_007,33.0,Gleditsia triacanthos,Gleditsia triacanthos,other broadleaf,single bole tree,Live,6.2,5.4,4.3,Partially shaded,2025.0,6.5,343.2,0.1,632880.0102933198,3696410.591576734
+NEON.PLA.D11.CLBJ.01462,CLBJ_007,41.0,Quercus marilandica,blackjack oak,oak,single bole tree,Live,7.5,5.8,4.9,Partially shaded,2025.0,6.4,102.1,0.1,632878.2248127152,3696413.1394411977
+NEON.PLA.D11.CLBJ.00966,CLBJ_008,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",5.1,3.7,3.3,Mostly shaded,2025.0,3.3,356.6,0.1,632991.2742889671,3696539.8181914324
+NEON.PLA.D11.CLBJ.00968,CLBJ_008,41.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,"Live, physically damaged",10.4,5.1,4.1,Partially shaded,2025.0,4.5,80.7,0.1,632995.9108507239,3696537.2512171953
+NEON.PLA.D11.CLBJ.00957,CLBJ_008,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",12.0,8.8,7.6,Partially shaded,2025.0,3.1,128.5,0.1,632984.0670852861,3696544.6412046263
+NEON.PLA.D11.CLBJ.00971,CLBJ_008,51.0,Quercus stellata,post oak,oak,single bole tree,Live,6.0,6.0,3.2,Mostly shaded,2025.0,10.8,182.1,0.1,633001.1452479459,3696535.445253347
+NEON.PLA.D11.CLBJ.04086,CLBJ_008,33.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,9.0,6.2,5.2,Full shade,2025.0,4.7,311.7,0.1,632997.6888005432,3696529.4125826666
+NEON.PLA.D11.CLBJ.04080,CLBJ_008,41.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,"Live, physically damaged",7.5,5.2,4.6,Full shade,2025.0,7.6,206.9,0.1,632988.0314962092,3696529.7463387754
+NEON.PLA.D11.CLBJ.04081,CLBJ_008,41.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,7.4,5.6,4.5,Mostly shaded,2025.0,7.0,33.7,0.1,632995.3539109922,3696542.347678855
+NEON.PLA.D11.CLBJ.00173,CLBJ_011,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",4.8,3.5,2.6,Full shade,2025.0,7.7,346.7,0.1,632811.0656170237,3696212.3864773205
+NEON.PLA.D11.CLBJ.02301,CLBJ_012,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",7.5,7.1,4.8,Mostly shaded,2025.0,3.0,77.3,0.1,633055.2906036318,3696834.6035386133
+NEON.PLA.D11.CLBJ.03532,CLBJ_012,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,"Live, physically damaged",7.0,5.4,4.3,Full shade,2025.0,8.9,103.3,0.1,633061.0252919677,3696831.896557339
+NEON.PLA.D11.CLBJ.03529,CLBJ_012,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,multi-bole tree,Live,8.2,7.1,6.8,Mostly shaded,2025.0,5.1,211.4,0.1,633059.5818508776,3696839.634890934
+NEON.PLA.D11.CLBJ.03531,CLBJ_012,33.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,"Live, physically damaged",7.1,5.8,5.7,Full shade,2025.0,11.3,324.7,0.12,633056.3622088445,3696833.0143547677
+NEON.PLA.D11.CLBJ.03530,CLBJ_012,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,8.6,6.7,6.0,Mostly shaded,2025.0,9.4,180.1,0.1,633062.2225939133,3696834.5880143167
+NEON.PLA.D11.CLBJ.03528,CLBJ_012,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,7.4,5.4,4.1,Partially shaded,2025.0,4.9,289.1,0.1,633047.7337503304,3696835.547367705
+NEON.PLA.D11.CLBJ.01144,CLBJ_014,49.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",6.6,6.0,5.0,Full sun,2025.0,8.0,165.8,0.1,632833.0174590871,3697196.243437201
+NEON.PLA.D11.CLBJ.01068,CLBJ_003,33.0,Quercus stellata,post oak,oak,single bole tree,Live,10.4,6.9,5.7,Partially shaded,2025.0,6.5,330.1,0.1,632729.8508296916,3696980.6478288677
+NEON.PLA.D11.CLBJ.00676,CLBJ_002,41.0,Ulmus alata,Ulmus alata,other broadleaf,single bole tree,Live,6.8,4.4,3.4,Mostly shaded,2025.0,5.3,186.9,0.1,632871.5912747541,3696980.7023860877
+NEON.PLA.D11.CLBJ.02771,CLBJ_014,41.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.4,6.0,4.3,Full shade,2025.0,4.0,129.5,0.1,632844.5434983337,3697191.4496871186
+NEON.PLA.D11.CLBJ.00001,CLBJ_009,49.0,Quercus marilandica,blackjack oak,oak,multi-bole tree,"Live, physically damaged",3.5,5.9,3.2,Partially shaded,2025.0,2.6,140.1,0.1,632712.953769042,3697143.6283706054
+NEON.PLA.D11.CLBJ.00003,CLBJ_009,41.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",4.7,5.9,3.3,Mostly shaded,2025.0,1.4,245.5,0.1,632719.9200542208,3697135.02442946
+NEON.PLA.D11.CLBJ.01420,CLBJ_016,51.0,Juniperus virginiana,eastern redcedar (juniper),juniper,single bole tree,Live,6.9,8.9,7.3,Mostly shaded,2025.0,3.0,250.5,0.1,632939.4710755267,3697083.9635794223
+NEON.PLA.D11.CLBJ.01408,CLBJ_016,33.0,Quercus stellata,post oak,oak,single bole tree,"Live, physically damaged",10.7,11.0,7.3,Partially shaded,2025.0,2.3,325.8,0.1,632941.538208231,3697066.727285321
+NEON.PLA.D11.CLBJ.01421,CLBJ_016,41.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,multi-bole tree,Live,10.9,6.6,6.3,Full sun,2025.0,0.4,113.0,0.1,632932.9142019413,3697074.7347075483
+NEON.PLA.D11.CLBJ.01388,CLBJ_002,31.0,Ulmus crassifolia,Ulmus crassifolia,other broadleaf,single bole tree,Live,6.2,3.0,2.4,Mostly shaded,2025.0,7.1,13.1,0.1,632863.7742242828,3696982.8602293674
