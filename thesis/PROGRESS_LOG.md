@@ -24,3 +24,14 @@
 2. Update proposal: remove mesquite; add data findings and NeonTreeEvaluation gap.
 3. Start drawing reference crowns around the 5 selected plots.
 4. First run of DeepForest on one RGB tile.
+
+## 2026-10-28: New topic (Dallas) and data setup started
+
+**Topic (final title):** Geographic Transferability of Supervised Deep Learning and Foundation Models for Urban Tree Canopy Mapping Using NAIP and LiDAR in Dallas, Texas
+
+1. Advisor (Dr. Dong) suggested moving from LBJ Grassland to Dallas urban green infrastructure, using NAIP + LiDAR (no hyperspectral), exploring SAM 3 in ArcGIS Pro, and focusing on GeoAI transferability.
+2. Built a 107-source verified reading list → `thesis/Dallas_GeoAI_Transferability_Topic_and_Literature.docx`.
+3. Wrote and tightened the thesis proposal (U-Net vs SAM 2 vs SAM 3; 4 Local Climate Zones; 80 plots; leave-one-zone-out transfer; dissimilarity index) → `thesis/Thesis_Proposal_Dallas_GeoAI_Transferability.docx`.
+4. Created local project folders on D:\Thesis_All (01_boundaries … 07_writing, data_log.xlsx).
+5. Step 1.1 done: downloaded City of Dallas "City Limit" (Dallas Open Data, updated 2026-03-12), projected WGS 1984 → NAD 1983 UTM 14N (WGS_1984_(ITRF00)_To_NAD_1983).
+6. Next: Step 1.2, the global LCZ map (Zenodo doi:10.5281/zenodo.6364594), clip and project with nearest neighbor.
