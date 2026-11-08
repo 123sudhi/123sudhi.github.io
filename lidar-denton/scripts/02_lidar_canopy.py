@@ -7,8 +7,10 @@ Data (Microsoft Planetary Computer):
 
 The LiDAR was only classified into ground / water (no vegetation or building classes), so tall
 objects are split into trees vs. buildings using NAIP NDVI:
-    tree canopy  = HAG >= 3 m  and NDVI >= 0.20
-    tall built   = HAG >= 3 m  and NDVI <  0.20   (roofs, etc.)
+    tree canopy  = HAG >= 3 m  and NDVI >= 0.05
+    tall built   = HAG >= 3 m  and NDVI <  0.05   (roofs, etc.)
+The 0.05 NDVI threshold sits in the valley of the bimodal NDVI histogram of tall (>=3 m) pixels
+(roofs peak near -0.05, tree crowns near +0.18; NAIP DN-based NDVI) and was checked visually.
 
 Outputs (in <processed_dir>):
   tiles/lc_<tile>.tif   2 m land cover: 0 open, 1 tree canopy, 2 tall built, 3 water, 255 nodata
@@ -36,7 +38,7 @@ TILES = PROC / "tiles"
 TILES.mkdir(exist_ok=True)
 CRS = "EPSG:26914"
 RES = 2.0
-HAG_MIN, NDVI_MIN = 3.0, 0.20
+HAG_MIN, NDVI_MIN = 3.0, 0.05
 
 cat = Client.open("https://planetarycomputer.microsoft.com/api/stac/v1", modifier=pc.sign_inplace)
 bgs = gpd.read_file(PROC / "block_groups.gpkg").to_crs(CRS).reset_index(drop=True)
@@ -66,7 +68,11 @@ def read_to_grid(href, bounds, shape, resampling, nodata, dtype, bands=None):
                        dtype=dtype, indexes=bands)
     return arr[:, :shape[0], :shape[1]]
 
-for k, (tid, geom) in enumerate(zip(tiles.id, tiles.geometry), 1):
+def process(tid):
+    cat = Client.open("https://planetarycomputer.microsoft.com/api/stac/v1", modifier=pc.sign_inplace)
+    cnt = {k: np.zeros(n, "int64") for k in ["land", "canopy", "built", "water"]}
+    hsum = np.zeros(n, "float64")
+    g_can = np.zeros((gh, gw), "float32"); g_land = np.zeros((gh, gw), "float32"); g_all = np.zeros((gh, gw), "float32")
     out_lc = TILES / f"lc_{tid}.tif"
     hag_item = cat.get_collection("3dep-lidar-hag").get_item(tid)
     cls_item = cat.get_collection("3dep-lidar-classification").get_item(tid.replace("-hag-", "-classification-"))
@@ -125,29 +131,40 @@ for k, (tid, geom) in enumerate(zip(tiles.id, tiles.geometry), 1):
         reproject(src.astype("float32"), tmp, src_transform=tr, src_crs=CRS, dst_transform=g_tr,
                   dst_crs=G_CRS, resampling=Resampling.sum, src_nodata=None, dst_nodata=None)
         dst += tmp
-    print(f"[{k}/{len(tiles)}] {tid}: canopy {100*canopy.sum()/max(land.sum(),1):.1f}% "
+    print(f"{tid}: canopy {100*canopy.sum()/max(land.sum(),1):.1f}% "
           f"of {land.sum()*4/1e6:.1f} km2 land", flush=True)
 
-# --- per block group table ---
-df = pd.DataFrame({"idx": np.arange(n), **{f"px_{k}": v for k, v in cnt.items()}, "h_sum": hsum})
-bgs = bgs.merge(df, on="idx", how="left")
-bgs["canopy_pct"] = 100 * bgs.px_canopy / bgs.px_land
-bgs["built_pct"] = 100 * bgs.px_built / bgs.px_land
-bgs["canopy_height_m"] = bgs.h_sum / bgs.px_canopy
-bgs.drop(columns="geometry").to_csv(PROC / "bg_canopy.csv", index=False)
 
-# --- 30 m grid ---
-with np.errstate(invalid="ignore", divide="ignore"):
-    can_frac = np.where(g_land > 0, g_can / g_land, np.nan).astype("float32")
-    land_frac = np.where(g_all > 0, g_land / g_all, np.nan).astype("float32")
-    # Resampling.sum counts 2 m pixels; a full 30 m cell holds 225 of them
-    land_frac[g_all < 0.9 * 225] = np.nan
-with rasterio.open(PROC / "grid30_canopy.tif", "w", driver="GTiff", height=gh, width=gw, count=2,
-                   dtype="float32", crs=G_CRS, transform=g_tr, nodata=np.nan, compress="deflate") as d:
-    d.write(can_frac, 1)
-    d.write(land_frac, 2)
+    return cnt, hsum, g_can, g_land, g_all
 
-tot_land, tot_can = cnt["land"].sum(), cnt["canopy"].sum()
-print(f"\nStudy-area tree canopy: {100*tot_can/tot_land:.1f}%   tall built: {100*cnt['built'].sum()/tot_land:.1f}%")
-print(f"Mean tree height: {hsum.sum()/tot_can:.1f} m")
-print(bgs[["canopy_pct", "built_pct", "canopy_height_m"]].describe())
+
+if __name__ == "__main__":
+    from multiprocessing import Pool
+    with Pool(4) as pool:
+        for c_, h_, a1, a2, a3 in pool.imap_unordered(process, list(tiles.id)):
+            for k in cnt: cnt[k] += c_[k]
+            hsum += h_; g_can += a1; g_land += a2; g_all += a3
+
+    # --- per block group table ---
+    df = pd.DataFrame({"idx": np.arange(n), **{f"px_{k}": v for k, v in cnt.items()}, "h_sum": hsum})
+    bgs = bgs.merge(df, on="idx", how="left")
+    bgs["canopy_pct"] = 100 * bgs.px_canopy / bgs.px_land
+    bgs["built_pct"] = 100 * bgs.px_built / bgs.px_land
+    bgs["canopy_height_m"] = bgs.h_sum / bgs.px_canopy
+    bgs.drop(columns="geometry").to_csv(PROC / "bg_canopy.csv", index=False)
+
+    # --- 30 m grid ---
+    with np.errstate(invalid="ignore", divide="ignore"):
+        can_frac = np.where(g_land > 0, g_can / g_land, np.nan).astype("float32")
+        land_frac = np.where(g_all > 0, g_land / g_all, np.nan).astype("float32")
+        # Resampling.sum counts 2 m pixels; a full 30 m cell holds 225 of them
+        land_frac[g_all < 0.9 * 225] = np.nan
+    with rasterio.open(PROC / "grid30_canopy.tif", "w", driver="GTiff", height=gh, width=gw, count=2,
+                       dtype="float32", crs=G_CRS, transform=g_tr, nodata=np.nan, compress="deflate") as d:
+        d.write(can_frac, 1)
+        d.write(land_frac, 2)
+
+    tot_land, tot_can = cnt["land"].sum(), cnt["canopy"].sum()
+    print(f"\nStudy-area tree canopy: {100*tot_can/tot_land:.1f}%   tall built: {100*cnt['built'].sum()/tot_land:.1f}%")
+    print(f"Mean tree height: {hsum.sum()/tot_can:.1f} m")
+    print(bgs[["canopy_pct", "built_pct", "canopy_height_m"]].describe())

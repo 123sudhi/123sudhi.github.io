@@ -1,10 +1,11 @@
 """Step 5: 3D LiDAR point clouds of two contrasting neighborhoods (poster eye-catcher):
 the most extreme "shade desert" block group vs. the leafiest, coolest block group.
 
-Raw points: USGS 3DEP TX_Pecos_Dallas_B3_2018 LAZ tiles (prd-tnm.s3.amazonaws.com).
+Raw points: USGS 3DEP TX_Pecos_Dallas_2018 COPC tiles (Planetary Computer, streamed with
+laspy.CopcReader so only the 600 m window is downloaded).
 Height above ground = Z - 2 m DTM (Planetary Computer 3dep-lidar-dtm).  Coloured with the
 analysis rule: >=3 m & NAIP NDVI>=0.2 -> tree (green by height); >=3 m & NDVI<0.2 -> building (grey).
-usage: python 05_3d_neighborhoods.py <processed_dir> <output_dir> <vpc_file>
+usage: python 05_3d_neighborhoods.py <processed_dir> <output_dir>
 """
 import sys, json, urllib.request
 from pathlib import Path
@@ -24,11 +25,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
-PROC, OUT, VPC = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3])
-LAZDIR = PROC / "laz"; LAZDIR.mkdir(exist_ok=True)
+PROC, OUT = Path(sys.argv[1]), Path(sys.argv[2])
 CRS = "EPSG:26914"
-BASE = ("https://prd-tnm.s3.amazonaws.com/StagedProducts/Elevation/LPC/Projects/"
-        "TX_Pecos_Dallas_2018_D19/TX_Pecos_Dallas_B3_2018/")
 HALF = 300   # 600 m x 600 m window
 cat = Client.open("https://planetarycomputer.microsoft.com/api/stac/v1")
 to4326 = Transformer.from_crs(CRS, 4326, always_xy=True)
@@ -40,10 +38,6 @@ desert = res[res.shade_desert].sort_values(["canopy_pct"]).iloc[0]
 # leafy: highest canopy among the coolest third
 leafy = res[res.lst_c <= res.lst_c.quantile(1 / 3)].sort_values("canopy_pct").iloc[-1]
 
-vpc = json.load(open(VPC))["features"]
-tiles = gpd.GeoDataFrame({"href": [list(f["assets"].values())[0]["href"] for f in vpc]},
-                         geometry=[box(f["bbox"][0], f["bbox"][1], f["bbox"][3], f["bbox"][4]) for f in vpc],
-                         crs=4326)
 
 def raster(col, asset, win, nodata, dtype, rs=Resampling.nearest, dt=None):
     b4326 = list(to4326.transform_bounds(*win))
@@ -56,14 +50,11 @@ def load(geoid):
     g = bg[bg.GEOID == geoid].geometry.iloc[0]
     p = g.representative_point()
     win = (p.x - HALF, p.y - HALF, p.x + HALF, p.y + HALF)
-    w4326 = box(*to4326.transform_bounds(*win))
-    hits = tiles[tiles.intersects(w4326)]
+    hits = list(cat.search(collections=["3dep-lidar-copc"], bbox=list(to4326.transform_bounds(*win))).items())
     xs, ys, zs, cs = [], [], [], []
-    for href in hits.href:
-        fn = LAZDIR / Path(href).name
-        if not fn.exists():
-            urllib.request.urlretrieve(BASE + href.lstrip("./"), fn)
-        las = laspy.read(fn)
+    for it in hits:
+        with laspy.CopcReader.open(pc.sign(it.assets["data"].href)) as rd:
+            las = rd.query(laspy.copc.Bounds(mins=np.array(win[:2]), maxs=np.array(win[2:])))
         x, y = np.asarray(las.x), np.asarray(las.y)
         k = (x >= win[0]) & (x < win[2]) & (y >= win[1]) & (y < win[3])
         c = np.asarray(las.classification)

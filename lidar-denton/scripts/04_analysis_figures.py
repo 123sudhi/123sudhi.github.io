@@ -280,3 +280,41 @@ ax.text(0.98, 0.96, f"{R['pixels_30m']:,} pixels\nband = ±1 std. dev.", transfo
         ha="right", va="top", fontsize=9.5, color=INK2)
 fig.savefig(OUT / "fig8_cooling_curve.png"); plt.close(fig)
 print("figures written to", OUT)
+
+# ---------------------------------------------------------------- FIG 10 method illustration
+from rasterio.merge import merge as _merge
+from rasterio.enums import Resampling as _RS
+from pystac_client import Client as _Client
+import planetary_computer as _pc
+from matplotlib.colors import ListedColormap as _LCM
+_cat = _Client.open("https://planetarycomputer.microsoft.com/api/stac/v1")
+_x, _y = Transformer.from_crs(4326, CRS, always_xy=True).transform(-97.0, 33.05)   # Old Town Lewisville
+_w = (_x - 300, _y - 300, _x + 300, _y + 300)
+_b = list(Transformer.from_crs(CRS, 4326, always_xy=True).transform_bounds(*_w))
+_src = [rasterio.open(_pc.sign(i.assets["image"].href))
+        for i in _cat.search(collections=["naip"], bbox=_b, datetime="2018").items()]
+_rgb, _ = _merge(_src, bounds=_w, res=0.6)
+_hag, _ = _merge([rasterio.open(_pc.sign(i.assets["data"].href))
+                  for i in _cat.search(collections=["3dep-lidar-hag"], bbox=_b).items()],
+                 bounds=_w, res=2, nodata=-9999)
+_lc, _ = _merge([rasterio.open(f) for f in sorted((PROC / "tiles").glob("lc_*.tif"))], bounds=_w, res=2, nodata=255)
+fig, axs = plt.subplots(1, 3, figsize=(15, 5.4))
+axs[0].imshow(np.dstack(_rgb[:3]))
+axs[0].set_title("① NAIP 2018 aerial photo", loc="left")
+im = axs[1].imshow(np.clip(_hag[0], 0, 20), cmap="viridis", interpolation="nearest")
+axs[1].set_title("② LiDAR height above ground", loc="left")
+cb = fig.colorbar(im, ax=axs[1], shrink=0.75, pad=0.01); cb.set_label("m"); cb.outline.set_visible(False)
+axs[2].imshow(np.ma.masked_equal(_lc[0], 255), cmap=_LCM(["#efe9dc", "#2f8a3a", "#8c8c94", "#6d9fd9"]),
+              vmin=0, vmax=3, interpolation="nearest")
+axs[2].set_title("③ Result: trees vs. buildings", loc="left")
+axs[2].legend(handles=[Patch(color="#2f8a3a", label="Tree canopy: ≥3 m & NDVI ≥ 0.05"),
+                       Patch(color="#8c8c94", label="Building: ≥3 m & NDVI < 0.05"),
+                       Patch(color="#efe9dc", label="Open / low (<3 m)")],
+              loc="upper center", bbox_to_anchor=(0.5, -0.02), frameon=False, fontsize=9.5, ncol=1)
+for a in axs:
+    a.set_axis_off()
+axs[0].plot([30, 30 + 100 / 0.6], [960, 960], color="white", lw=3)
+axs[0].text(30 + 50 / 0.6, 940, "100 m", color="white", ha="center", fontsize=9, fontweight="bold")
+fig.suptitle("Old Town Lewisville · 600 m × 600 m", x=0.01, ha="left", fontsize=10, color=INK2, y=0.02)
+fig.savefig(OUT / "fig10_method_illustration.png"); plt.close(fig)
+print("fig10 done")
