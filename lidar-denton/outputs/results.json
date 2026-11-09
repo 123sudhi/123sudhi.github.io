@@ -1,0 +1,113 @@
+{
+  "n_block_groups": 287,
+  "population": 535601,
+  "study_area_km2": 742.5,
+  "canopy_pct_overall": 26.5,
+  "built_pct_overall": 16.2,
+  "canopy_vs_lst": {
+    "pearson_r": -0.536,
+    "p": 8.7e-23,
+    "spearman_rho": -0.488,
+    "p_s": 1.4e-18
+  },
+  "income_vs_canopy": {
+    "pearson_r": 0.107,
+    "p": 0.069,
+    "spearman_rho": 0.134,
+    "p_s": 0.024
+  },
+  "income_vs_lst": {
+    "pearson_r": -0.334,
+    "p": 6.8e-09,
+    "spearman_rho": -0.35,
+    "p_s": 1e-09
+  },
+  "built_vs_lst": {
+    "pearson_r": 0.642,
+    "p": 1.1e-34,
+    "spearman_rho": 0.699,
+    "p_s": 2.3e-43
+  },
+  "ols_simple": {
+    "slope_per_10pct": -1.0,
+    "r2": 0.288,
+    "p": 8.7e-23
+  },
+  "ols_multi": {
+    "Intercept": {
+      "coef": 41.9309,
+      "p": 1.8e-184
+    },
+    "canopy_pct": {
+      "coef": -0.0958,
+      "p": 5.1e-42
+    },
+    "built_pct": {
+      "coef": 0.0516,
+      "p": 2.4e-05
+    },
+    "np.log(pop_density + 1)": {
+      "coef": 0.8923,
+      "p": 1.2e-14
+    }
+  },
+  "ols_multi_r2": 0.718,
+  "by_income_quintile": {
+    "Q1 lowest": {
+      "canopy": 27.51,
+      "lst": 47.91,
+      "income": 58182.5,
+      "n": 58.0,
+      "pop": 87801.0
+    },
+    "Q2": {
+      "canopy": 26.26,
+      "lst": 47.45,
+      "income": 86719.0,
+      "n": 57.0,
+      "pop": 100359.0
+    },
+    "Q3": {
+      "canopy": 27.28,
+      "lst": 47.28,
+      "income": 112409.0,
+      "n": 57.0,
+      "pop": 112803.0
+    },
+    "Q4": {
+      "canopy": 29.95,
+      "lst": 46.85,
+      "income": 143210.0,
+      "n": 57.0,
+      "pop": 115257.0
+    },
+    "Q5 highest": {
+      "canopy": 29.4,
+      "lst": 46.01,
+      "income": 204536.5,
+      "n": 58.0,
+      "pop": 119381.0
+    }
+  },
+  "pixels_30m": 786498,
+  "pixel_lst_0_10_vs_50plus": 5.16,
+  "pixel_spearman": -0.477,
+  "shade_desert": {
+    "n": 27,
+    "population": 48677,
+    "median_income": 85338.0,
+    "median_income_others": 115682.0,
+    "canopy_mean": 14.7,
+    "lst_mean": 49.4,
+    "canopy_thresh": 21.4,
+    "lst_thresh": 48.4
+  },
+  "lst_range_bg": [
+    39.2,
+    50.9
+  ],
+  "canopy_range_bg": [
+    3.1,
+    58.8
+  ]
+}
