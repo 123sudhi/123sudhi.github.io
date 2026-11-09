@@ -23,6 +23,7 @@ from pystac_client import Client
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+plt.rcParams.update({"font.family": "serif", "font.serif": ["Times New Roman", "Liberation Serif", "DejaVu Serif"]})
 from matplotlib.patches import Patch
 
 PROC, OUT = Path(sys.argv[1]), Path(sys.argv[2])

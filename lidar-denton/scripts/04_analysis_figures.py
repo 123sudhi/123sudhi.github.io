@@ -26,7 +26,7 @@ BLUE = ["#cde2fb", "#9ec5f4", "#6da7ec", "#3987e5", "#256abf", "#184f95", "#0d36
 GREEN = ["#f3f8ee", "#cfe6bd", "#9fcf86", "#62ad54", "#2f8a3a", "#13692a", "#06461b"]
 HEAT = ["#fdf0e6", "#f9cfae", "#f2a571", "#e8743d", "#cf4a1f", "#a3300f", "#6d1f08"]
 plt.rcParams.update({
-    "font.family": "DejaVu Sans", "font.size": 11, "axes.edgecolor": MUTED, "axes.labelcolor": INK2,
+    "font.family": "serif", "font.serif": ["Times New Roman", "Liberation Serif", "DejaVu Serif"], "font.size": 12, "mathtext.fontset": "stix", "axes.edgecolor": MUTED, "axes.labelcolor": INK2,
     "xtick.color": INK2, "ytick.color": INK2, "axes.spines.top": False, "axes.spines.right": False,
     "axes.grid": True, "grid.color": GRID, "grid.linewidth": 0.8, "axes.axisbelow": True,
     "axes.titleweight": "bold", "axes.titlesize": 13, "axes.titlecolor": INK, "figure.dpi": 100,
@@ -303,13 +303,13 @@ _hag, _ = _merge([rasterio.open(_pc.sign(i.assets["data"].href))
 _lc, _ = _merge([rasterio.open(f) for f in sorted((PROC / "tiles").glob("lc_*.tif"))], bounds=_w, res=2, nodata=255)
 fig, axs = plt.subplots(1, 3, figsize=(15, 5.4))
 axs[0].imshow(np.dstack(_rgb[:3]))
-axs[0].set_title("① NAIP 2018 aerial photo", loc="left")
+axs[0].set_title("1. NAIP 2018 aerial photo", loc="left")
 im = axs[1].imshow(np.clip(_hag[0], 0, 20), cmap="viridis", interpolation="nearest")
-axs[1].set_title("② LiDAR height above ground", loc="left")
+axs[1].set_title("2. LiDAR height above ground", loc="left")
 cb = fig.colorbar(im, ax=axs[1], shrink=0.75, pad=0.01); cb.set_label("m"); cb.outline.set_visible(False)
 axs[2].imshow(np.ma.masked_equal(_lc[0], 255), cmap=_LCM(["#efe9dc", "#2f8a3a", "#8c8c94", "#6d9fd9"]),
               vmin=0, vmax=3, interpolation="nearest")
-axs[2].set_title("③ Result: trees vs. buildings", loc="left")
+axs[2].set_title("3. Result: trees vs. buildings", loc="left")
 axs[2].legend(handles=[Patch(color="#2f8a3a", label="Tree canopy: ≥3 m & NDVI ≥ 0.05"),
                        Patch(color="#8c8c94", label="Building: ≥3 m & NDVI < 0.05"),
                        Patch(color="#efe9dc", label="Open / low (<3 m)")],
