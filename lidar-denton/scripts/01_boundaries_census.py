@@ -59,7 +59,7 @@ county.to_file(OUT / "denton_county.gpkg")
 # --- City of Denton + other places (map labels) ---------------------------------------
 place = gpd.read_file(f"zip://{DATA/'place.zip'}").to_crs(CRS)
 place = place[place.intersects(county.geometry.iloc[0])]
-place = place[place.LSAD == "25"]   # incorporated cities
+place = place[place.LSAD != "57"]   # incorporated cities/towns (drop CDPs)
 place[["NAME", "geometry"]].to_file(OUT / "places.gpkg")
 
 print(f"LiDAR tiles: {len(foot)}")

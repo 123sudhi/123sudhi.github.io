@@ -4,7 +4,7 @@ the most extreme "shade desert" block group vs. the leafiest, coolest block grou
 Raw points: USGS 3DEP TX_Pecos_Dallas_2018 COPC tiles (Planetary Computer, streamed with
 laspy.CopcReader so only the 600 m window is downloaded).
 Height above ground = Z - 2 m DTM (Planetary Computer 3dep-lidar-dtm).  Coloured with the
-analysis rule: >=3 m & NAIP NDVI>=0.2 -> tree (green by height); >=3 m & NDVI<0.2 -> building (grey).
+analysis rule: >=3 m & NAIP NDVI>=0.05 -> tree (green by height); >=3 m & NDVI<0.05 -> building (grey).
 usage: python 05_3d_neighborhoods.py <processed_dir> <output_dir>
 """
 import sys, json, urllib.request
@@ -70,32 +70,32 @@ def load(geoid):
     hag = z - dtm[0, row, col]
     nd = ndvi[row, col]
     rgb = np.tile([0.86, 0.82, 0.72], (len(x), 1))
-    tree = (hag >= 3) & (nd >= 0.2)
+    tree = (hag >= 3) & (nd >= 0.05)
     t = np.clip(hag[tree] / 20, 0, 1)[:, None]
     rgb[tree] = (1 - t) * np.array([0.62, 0.81, 0.53]) + t * np.array([0.03, 0.33, 0.12])
-    rgb[(hag >= 3) & (nd < 0.2)] = [0.55, 0.55, 0.58]
+    rgb[(hag >= 3) & (nd < 0.05)] = [0.55, 0.55, 0.58]
     rgb[c == 9] = [0.42, 0.62, 0.85]
     print(geoid, len(x), "points")
     return x - p.x, y - p.y, hag.clip(-1, 35), rgb, p
 
-fig = plt.figure(figsize=(16, 7.5))
+fig = plt.figure(figsize=(10, 12.5))
 for k, (row, title) in enumerate([(desert, "Shade desert"), (leafy, "Leafy & cool")]):
     x, y, h, rgb, p = load(row.GEOID)
     lon, lat = to4326.transform(p.x, p.y)
     rng = np.random.default_rng(0)
     s = rng.choice(len(x), min(len(x), 900_000), replace=False)
     s = s[np.argsort(h[s])]
-    ax = fig.add_subplot(1, 2, k + 1, projection="3d", computed_zorder=False)
+    ax = fig.add_subplot(2, 1, k + 1, projection="3d", computed_zorder=False)
     ax.scatter(x[s], y[s], h[s], c=rgb[s], s=0.35, linewidths=0, depthshade=False)
-    ax.set_box_aspect((1, 1, 0.22)); ax.view_init(elev=35, azim=-60); ax.set_axis_off()
+    ax.set_box_aspect((1, 1, 0.22), zoom=1.45); ax.view_init(elev=35, azim=-60); ax.set_axis_off()
     ax.set_zlim(-1, 35)
     ax.set_title(f"{title}\nCanopy {row.canopy_pct:.0f}%  ·  Summer LST {row.lst_c:.1f} °C  ·  "
-                 f"Median income ${row.med_income/1000:.0f}k", fontsize=13, fontweight="bold", y=0.98)
-    ax.text2D(0.5, 0.06, f"Block group {row.GEOID} ({lat:.3f}°N, {abs(lon):.3f}°W) · 600 m × 600 m",
-              transform=ax.transAxes, ha="center", fontsize=9, color="#52514e")
+                 f"Median income ${row.med_income/1000:.0f}k", fontsize=14, fontweight="bold", y=0.93)
+    print(f"{title}: block group {row.GEOID} ({lat:.3f}N, {abs(lon):.3f}W)")
 fig.legend(handles=[Patch(color=(0.03, 0.33, 0.12), label="Tree canopy (≥3 m & green)"),
                     Patch(color=(0.55, 0.55, 0.58), label="Buildings (≥3 m & not green)"),
                     Patch(color=(0.86, 0.82, 0.72), label="Ground / low objects")],
-           loc="lower center", ncol=3, frameon=False, fontsize=11, bbox_to_anchor=(0.5, 0.0))
+           loc="lower center", ncol=3, frameon=False, fontsize=11, bbox_to_anchor=(0.5, 0.02))
+fig.subplots_adjust(hspace=-0.05, top=1.0, bottom=0.05)
 fig.savefig(OUT / "fig9_3d_neighborhoods.png", dpi=300, bbox_inches="tight", facecolor="white")
 print("done", desert.GEOID, leafy.GEOID)

@@ -150,16 +150,19 @@ def place_pt(name):
     p = places[places.NAME == name]
     if p.empty: return None
     g = p.geometry.iloc[0].intersection(study.geometry.iloc[0])
-    return None if g.is_empty else g.representative_point()
+    if g.is_empty or g.area < 3e6: return None
+    if g.geom_type == "MultiPolygon":
+        g = max(g.geoms, key=lambda x: x.area)
+    return g.representative_point()
 LABELS = ["Denton", "Corinth", "Lewisville", "Flower Mound", "Highland Village", "The Colony",
-          "Lake Dallas", "Little Elm", "Frisco", "Carrollton"]
+          "Argyle", "Frisco", "Carrollton", "Roanoke", "Justin"]
 from pyproj import Transformer
 unt = Transformer.from_crs(4326, CRS, always_xy=True).transform(-97.1503, 33.2107)
 
 def labels(ax, color=INK):
     for n in LABELS:
         p = place_pt(n)
-        if p is not None and p.within(study.geometry.iloc[0].buffer(-500)):
+        if p is not None:
             ax.text(p.x, p.y, n, fontsize=8.5, color=color, ha="center", va="center", fontweight="bold",
                     path_effects=[matplotlib.patheffects.withStroke(linewidth=2.5, foreground="white")])
     ax.plot(*unt, marker="*", ms=14, color="#00853e", mec="white", mew=1.2, zorder=5)
@@ -178,7 +181,7 @@ mapax(ax); scalebar(ax, 10)
 ax.legend(handles=[Patch(fc="#cfe6bd", ec="white", label=f"Study area: {len(bg)} block groups\n(≥90% covered by 2018 USGS 3DEP LiDAR)"),
                    Patch(fc="#f4f3f0", ec=INK2, label="Denton County (2018 3DEP LiDAR ends near 33.19°N)"),
                    plt.Line2D([], [], color="#13692a", ls="--", label="City of Denton limits")],
-          loc="upper left", frameon=False, fontsize=9)
+          loc="upper center", bbox_to_anchor=(0.5, 0.0), frameon=False, fontsize=9, ncol=1)
 ax.set_title("Study Area — Southern Denton County, Texas", loc="left")
 fig.savefig(OUT / "fig1_study_area.png"); plt.close(fig)
 
